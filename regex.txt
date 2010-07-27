@@ -1,0 +1,18 @@
+software
+
+\n\n\n\n\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n
+
+\n\n\n\n\n    software.title = ('\1').decode('utf-8')\n    software.desc = ('\2').decode('utf-8')\n    software.category = ('\3').decode('utf-8')\n    software.type = ('\4').decode('utf-8')\n    software.size = ('\5').decode('utf-8')\n    software.updatedate = convert_date('\6')\n    software.name = ('\7').decode('utf-8')\n    software.numbers = ('\8').decode('utf-8')\n    software.imgurl = ('\9').decode('utf-8')\n\n\n\n\n\n\n\n
+
+
+
+
+\n\n\n\n\n\n\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n
+    software.link = ('\1').decode('utf-8')\n    software.downloadurl = ('\2').decode('utf-8')\n    software.downloadpageurl = ('\3').decode('utf-8')\n    software.downloadfileurl = ('\4').decode('utf-8')\n    software.filename = ('\5').decode('utf-8')\n    software.filenamefixed = ('\6').decode('utf-8')\n\n    software.put()
+
+
+android123
+
+\([0-9]+, '([^']+)', NULL. '([^']+)', '([^']+)'\),\n
+
+    Android123 = Hao123()\n    Android123.category = ('\1').decode('utf-8')\n    Android123.htmltext = ('\2').decode('utf-8')\n    Android123.htmllink = ('\3').decode('utf-8')\n    Android123.put()\n\n

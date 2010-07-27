@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小红马 网址</title>
+</head>
+<body>
+<table width="300" border="0">
+  <tr>
+    <td width="100%" align="left" valign="top"><big>{{ category|escape }} 网址</big>
+      <table border="0">
+    {% for item in android123 %}
+        <tr>
+          <td><a href="{{ item.htmllink|escape }}">{{ item.htmltext|escape }}</a></td>
+        </tr>
+    {% endfor %}
+      </table></td>
+  </tr>
+</table>
+<p>你占有了服务器：n 秒时间。</p>
+<p>小红马是您永远的朋友！</p>
+</body>
+</html>
