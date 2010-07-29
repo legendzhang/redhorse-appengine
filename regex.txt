@@ -1,14 +1,16 @@
 software
 
+\([0-9]+, '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '
+\n\n\n\n\1\n\2\n\3\n\4\n\5\n\6\n\7\n\8\n\9\n
+
+\n([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)', '([^']*)'\)[,;]
+\n\1\n\2\n\3\n\4\n\5\n\6\n
+
 \n\n\n\n\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n
-
-\n\n\n\n\n    software.title = ('\1').decode('utf-8')\n    software.desc = ('\2').decode('utf-8')\n    software.category = ('\3').decode('utf-8')\n    software.type = ('\4').decode('utf-8')\n    software.size = ('\5').decode('utf-8')\n    software.updatedate = convert_date('\6')\n    software.name = ('\7').decode('utf-8')\n    software.numbers = ('\8').decode('utf-8')\n    software.imgurl = ('\9').decode('utf-8')\n\n\n\n\n\n\n\n
-
-
-
+\n\n\n\n\n    software = AndroidSoftware()\n    software.title = ('\1').decode('utf-8')\n    software.desc = ('\2').decode('utf-8')\n    software.category = ('\3').decode('utf-8')\n    software.type = ('\4').decode('utf-8')\n    software.size = ('\5').decode('utf-8')\n    software.updatedate = convert_date('\6')\n    software.name = ('\7').decode('utf-8')\n    software.numbers = ('\8').decode('utf-8')\n    software.imgurl = ('\9').decode('utf-8')\n\n\n\n\n\n\n\n
 
 \n\n\n\n\n\n\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n([^\n]+)\n
-    software.link = ('\1').decode('utf-8')\n    software.downloadurl = ('\2').decode('utf-8')\n    software.downloadpageurl = ('\3').decode('utf-8')\n    software.downloadfileurl = ('\4').decode('utf-8')\n    software.filename = ('\5').decode('utf-8')\n    software.filenamefixed = ('\6').decode('utf-8')\n\n    software.put()
+    software.link = ('\1').decode('utf-8')\n    software.downloadurl = ('\2').decode('utf-8')\n    software.downloadpageurl = ('\3').decode('utf-8')\n    software.downloadfileurl = ('\4').decode('utf-8')\n    software.filename = ('\5').decode('utf-8')\n    software.filenamefixed = ('\6').decode('utf-8')\n\n    software.put()\n
 
 
 android123

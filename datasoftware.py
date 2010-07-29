@@ -37,7 +37,8 @@ class SoftwareInit(webapp.RequestHandler):
     for result in results:
       result.delete()
     #software = AndroidSoftware('Handcent SMS For Android3.2.2', 'Handcent SMS是一款强大的短信增强工具', '系统工具', '短信工具', '2.08MB', '2010-07-22', 'Handcent SMS For Android', '1665', 'http://img.download.pchome.net/0l/dd/hot6.png', 'http://download.pchome.net/mobile/System/sms/detail-27697.html', 'http://download.pchome.net/mobile/System/sms/download-27697.html', 'http://download.pchome.net/mobile/System/sms/redirectsrv-27697-5.html', 'http://dl-sh-ocn-1.pchome.net/0l/dd/HandcentSms_V3.2.2.apk', 'HandcentSms_V3.2.2.apk', 'HandcentSms_V3.2.2.apk')
-    
+
+
     software = AndroidSoftware()
     software.title = ('Handcent SMS For Android3.2.2').decode('utf-8')
     software.desc = ('Handcent SMS是一款强大的短信增强工具').decode('utf-8')
@@ -54,8 +55,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/dd/HandcentSms_V3.2.2.apk').decode('utf-8')
     software.filename = ('HandcentSms_V3.2.2.apk').decode('utf-8')
     software.filenamefixed = ('HandcentSms_V3.2.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('X-plore for Android1.46a').decode('utf-8')
@@ -73,8 +74,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0v/5m/X-plore.apk').decode('utf-8')
     software.filename = ('X-plore.apk').decode('utf-8')
     software.filenamefixed = ('X-plore.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('安装王 for Android1.0').decode('utf-8')
@@ -92,8 +93,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0r/3x/AKindom_2.2.0_release.apk').decode('utf-8')
     software.filename = ('AKindom_2.2.0_release.apk').decode('utf-8')
     software.filenamefixed = ('AKindom_2.2.0_release.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Taskiller For Android3.02').decode('utf-8')
@@ -111,8 +112,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/yd/taskiller.rar').decode('utf-8')
     software.filename = ('taskiller.rar').decode('utf-8')
     software.filenamefixed = ('taskiller.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Autostarts For Android1.6.0').decode('utf-8')
@@ -130,8 +131,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/01/autostarts.apk').decode('utf-8')
     software.filename = ('autostarts.apk').decode('utf-8')
     software.filenamefixed = ('autostarts.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('百度手机输入法 for 黑莓1.0.0.7').decode('utf-8')
@@ -149,8 +150,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/31/7m/BaiduInput_blackberry_v1.0.0.7.zip').decode('utf-8')
     software.filename = ('BaiduInput_blackberry_v1.0.0.7.zip').decode('utf-8')
     software.filenamefixed = ('BaiduInput_blackberry_v1.0.0.7.zip').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Locale 智能情景 for Android1.2.1').decode('utf-8')
@@ -168,8 +169,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/2m/locale.rar').decode('utf-8')
     software.filename = ('locale.rar').decode('utf-8')
     software.filenamefixed = ('locale.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('百度手机输入法 for Android 1.1 正式版').decode('utf-8')
@@ -187,8 +188,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/3j/baiduinput_andriod_v1.1_1000e.apk').decode('utf-8')
     software.filename = ('baiduinput_andriod_v1.1_1000e.apk').decode('utf-8')
     software.filenamefixed = ('baiduinput_andriod_v1.1_1000e.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('豌豆荚手机精灵 for Android0.8 Beta').decode('utf-8')
@@ -206,8 +207,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/v1/WanDouJiaSetup.rar').decode('utf-8')
     software.filename = ('WanDouJiaSetup.rar').decode('utf-8')
     software.filenamefixed = ('WanDouJiaSetup.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('搜狗手机输入法 for Android1.49 公测版').decode('utf-8')
@@ -225,8 +226,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/qq/sogouinput_android_sweb_1.4.9.apk').decode('utf-8')
     software.filename = ('sogouinput_android_sweb_1.4.9.apk').decode('utf-8')
     software.filenamefixed = ('sogouinput_android_sweb_1.4.9.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('WebSharing for Android1.6.1').decode('utf-8')
@@ -244,8 +245,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/51/websharing.rar').decode('utf-8')
     software.filename = ('websharing.rar').decode('utf-8')
     software.filenamefixed = ('websharing.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('ASTRO File Manager For Android2.4.2').decode('utf-8')
@@ -263,8 +264,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3t/cc/astro.rar').decode('utf-8')
     software.filename = ('astro.rar').decode('utf-8')
     software.filenamefixed = ('astro.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('触宝手机输入法 for Android4.2').decode('utf-8')
@@ -282,8 +283,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/pd/TouchPal.apk').decode('utf-8')
     software.filename = ('TouchPal.apk').decode('utf-8')
     software.filenamefixed = ('TouchPal.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('ES文件浏览器 for Android1.4.1').decode('utf-8')
@@ -301,8 +302,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ea/FexPro_V141.apk').decode('utf-8')
     software.filename = ('FexPro_V141.apk').decode('utf-8')
     software.filenamefixed = ('FexPro_V141.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Root Explorer for Android2.10.2').decode('utf-8')
@@ -320,8 +321,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/iu/rootexplorer.v2.10.2.apk').decode('utf-8')
     software.filename = ('rootexplorer.v2.10.2.apk').decode('utf-8')
     software.filenamefixed = ('rootexplorer.v2.10.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Advanced Task Manager for Android 汉化版4.1').decode('utf-8')
@@ -339,8 +340,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3q/q1/advanced.apk').decode('utf-8')
     software.filename = ('advanced.apk').decode('utf-8')
     software.filenamefixed = ('advanced.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Sprite Backup For Android 2.2.0.139.').decode('utf-8')
@@ -358,8 +359,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3t/dz/sprite.rar').decode('utf-8')
     software.filename = ('sprite.rar').decode('utf-8')
     software.filenamefixed = ('sprite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ拼音(手机版)2010 for Android 增强版Beta1 Build0510').decode('utf-8')
@@ -377,8 +378,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/yu/QQPinyin2010(Android)_Beta1_Build0510.apk').decode('utf-8')
     software.filename = ('QQPinyin2010(Android)_Beta1_Build0510.apk').decode('utf-8')
     software.filenamefixed = ('QQPinyin2010(Android)_Beta1_Build0510.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SetCPU with Profiles for Android1.5.4').decode('utf-8')
@@ -396,8 +397,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/7h/setcpu.rar').decode('utf-8')
     software.filename = ('setcpu.rar').decode('utf-8')
     software.filenamefixed = ('setcpu.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Advanced Task Killer For Android2.78').decode('utf-8')
@@ -415,8 +416,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/sc/advanced.rar').decode('utf-8')
     software.filename = ('advanced.rar').decode('utf-8')
     software.filenamefixed = ('advanced.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Better Cut for Android2.3').decode('utf-8')
@@ -434,8 +435,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/2l/better.rar').decode('utf-8')
     software.filename = ('better.rar').decode('utf-8')
     software.filenamefixed = ('better.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('子兵输入法 for Android 1.0.2').decode('utf-8')
@@ -453,8 +454,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/df/shurufa.rar').decode('utf-8')
     software.filename = ('shurufa.rar').decode('utf-8')
     software.filenamefixed = ('shurufa.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Terminal Emulator For Android3.13').decode('utf-8')
@@ -472,8 +473,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/rp/terminal.rar').decode('utf-8')
     software.filename = ('terminal.rar').decode('utf-8')
     software.filenamefixed = ('terminal.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Auto Memory Manager for Android1.6').decode('utf-8')
@@ -491,8 +492,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/y9/auto.apk').decode('utf-8')
     software.filename = ('auto.apk').decode('utf-8')
     software.filenamefixed = ('auto.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91手机助手 for Android 1.3.1.70').decode('utf-8')
@@ -510,8 +511,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/cc/91assistant_for_android.rar').decode('utf-8')
     software.filename = ('91assistant_for_android.rar').decode('utf-8')
     software.filenamefixed = ('91assistant_for_android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('INSUN智能手机输入法 for AndroidBeta1').decode('utf-8')
@@ -529,8 +530,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/92/INSUN_Android_Beta1.apk').decode('utf-8')
     software.filename = ('INSUN_Android_Beta1.apk').decode('utf-8')
     software.filenamefixed = ('INSUN_Android_Beta1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('CacheMate 缓存助手 for Android2.6.').decode('utf-8')
@@ -548,8 +549,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/7g/CacheMate.apk').decode('utf-8')
     software.filename = ('CacheMate.apk').decode('utf-8')
     software.filenamefixed = ('CacheMate.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('国笔输入法 for Android0.1.11').decode('utf-8')
@@ -567,8 +568,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/26/shuru.rar').decode('utf-8')
     software.filename = ('shuru.rar').decode('utf-8')
     software.filenamefixed = ('shuru.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Ansta for Android1.0.1').decode('utf-8')
@@ -586,8 +587,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/1d/Ansta.rar').decode('utf-8')
     software.filename = ('Ansta.rar').decode('utf-8')
     software.filenamefixed = ('Ansta.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aTrackDog 程序更新器 for Android3.14').decode('utf-8')
@@ -605,8 +606,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/0l/aTrackDog3.14.rar').decode('utf-8')
     software.filename = ('aTrackDog3.14.rar').decode('utf-8')
     software.filenamefixed = ('aTrackDog3.14.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('乐驰旅行 for Android').decode('utf-8')
@@ -624,8 +625,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3u/zh/letsgo.rar').decode('utf-8')
     software.filename = ('letsgo.rar').decode('utf-8')
     software.filenamefixed = ('letsgo.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Droid Explorer for Android0.8.4.3').decode('utf-8')
@@ -643,8 +644,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/yk/DroidExplorer.rar').decode('utf-8')
     software.filename = ('DroidExplorer.rar').decode('utf-8')
     software.filenamefixed = ('DroidExplorer.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('App Buddy 应用伙伴 for Android1.97').decode('utf-8')
@@ -662,8 +663,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/vu/app.rar').decode('utf-8')
     software.filename = ('app.rar').decode('utf-8')
     software.filenamefixed = ('app.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Word Counter 计数器 for Android 1.0.5').decode('utf-8')
@@ -681,8 +682,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/v2/jishu.rar').decode('utf-8')
     software.filename = ('jishu.rar').decode('utf-8')
     software.filenamefixed = ('jishu.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('安致伴侣 for Android 1.0.7').decode('utf-8')
@@ -700,8 +701,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/td/anzhi.rar').decode('utf-8')
     software.filename = ('anzhi.rar').decode('utf-8')
     software.filenamefixed = ('anzhi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91短信秀 for Android 1.0.1').decode('utf-8')
@@ -719,8 +720,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/sy/91smsshow_v1.0.1.rar').decode('utf-8')
     software.filename = ('91smsshow_v1.0.1.rar').decode('utf-8')
     software.filenamefixed = ('91smsshow_v1.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Lockerz for Android').decode('utf-8')
@@ -738,8 +739,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/rl/lockerz.rar').decode('utf-8')
     software.filename = ('lockerz.rar').decode('utf-8')
     software.filenamefixed = ('lockerz.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SMS Backup for Android1.1.1').decode('utf-8')
@@ -757,8 +758,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0e/qy/SmsBackup-1.1.1.apk').decode('utf-8')
     software.filename = ('SmsBackup-1.1.1.apk').decode('utf-8')
     software.filenamefixed = ('SmsBackup-1.1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('摸手锁屏 for android1.5').decode('utf-8')
@@ -776,8 +777,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/qg/lockgo.rar').decode('utf-8')
     software.filename = ('lockgo.rar').decode('utf-8')
     software.filenamefixed = ('lockgo.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('摸手文件管理 for android').decode('utf-8')
@@ -795,8 +796,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/qe/wenjianguanli.rar').decode('utf-8')
     software.filename = ('wenjianguanli.rar').decode('utf-8')
     software.filenamefixed = ('wenjianguanli.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AndroZip For Android0.9.8').decode('utf-8')
@@ -814,8 +815,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/ym/androzip.rar').decode('utf-8')
     software.filename = ('androzip.rar').decode('utf-8')
     software.filenamefixed = ('androzip.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('dxTop for Android2.6.5').decode('utf-8')
@@ -833,8 +834,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/py/dxtop.rar').decode('utf-8')
     software.filename = ('dxtop.rar').decode('utf-8')
     software.filenamefixed = ('dxtop.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('COL Reminder 提醒器 for Android 1.6.1').decode('utf-8')
@@ -852,8 +853,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/od/col.apk').decode('utf-8')
     software.filename = ('col.apk').decode('utf-8')
     software.filenamefixed = ('col.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ拼音(手机版)2010 for Android 标准版Beta1').decode('utf-8')
@@ -871,8 +872,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/yr/QQPinyin2010(Android)_Beta1_Build0406.apk').decode('utf-8')
     software.filename = ('QQPinyin2010(Android)_Beta1_Build0406.apk').decode('utf-8')
     software.filenamefixed = ('QQPinyin2010(Android)_Beta1_Build0406.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('智能拨号 For Android1.71').decode('utf-8')
@@ -890,8 +891,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/bw/HiDialer_1.71.apk').decode('utf-8')
     software.filename = ('HiDialer_1.71.apk').decode('utf-8')
     software.filenamefixed = ('HiDialer_1.71.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('FileScanner 文件扫描仪 for Android1.1').decode('utf-8')
@@ -909,8 +910,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/he/FileScannerV1.1.apk').decode('utf-8')
     software.filename = ('FileScannerV1.1.apk').decode('utf-8')
     software.filenamefixed = ('FileScannerV1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('自动内存管理 for android1.4').decode('utf-8')
@@ -928,8 +929,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ft/MemoryManagementV1.4(1).apk').decode('utf-8')
     software.filename = ('MemoryManagementV1.4(1).apk').decode('utf-8')
     software.filenamefixed = ('MemoryManagementV1.4(1).apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('BootControl高级重启 for android1.1').decode('utf-8')
@@ -947,8 +948,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/fp/BootControlV1.1.apk').decode('utf-8')
     software.filename = ('BootControlV1.1.apk').decode('utf-8')
     software.filenamefixed = ('BootControlV1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Swype触滑输入法 for Android1.25').decode('utf-8')
@@ -966,8 +967,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/e8/SwypeV1.25.apk').decode('utf-8')
     software.filename = ('SwypeV1.25.apk').decode('utf-8')
     software.filenamefixed = ('SwypeV1.25.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('G-backup for AndroidV1.91').decode('utf-8')
@@ -985,8 +986,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3u/73/Gbackup_full_V1.91H.rar').decode('utf-8')
     software.filename = ('Gbackup_full_V1.91H.rar').decode('utf-8')
     software.filenamefixed = ('Gbackup_full_V1.91H.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Lockbot free锁屏 for Android1.10.1 汉化版').decode('utf-8')
@@ -1004,8 +1005,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/9l/LockBotPro_V1.10.1H.rar').decode('utf-8')
     software.filename = ('LockBotPro_V1.10.1H.rar').decode('utf-8')
     software.filenamefixed = ('LockBotPro_V1.10.1H.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Drocap2截图 For Android2.01').decode('utf-8')
@@ -1023,8 +1024,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3t/62/drocap2_V2.01H.rar').decode('utf-8')
     software.filename = ('drocap2_V2.01H.rar').decode('utf-8')
     software.filenamefixed = ('drocap2_V2.01H.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Moto输入法 For Android').decode('utf-8')
@@ -1042,8 +1043,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/ie/Moto_inputmethod.rar').decode('utf-8')
     software.filename = ('Moto_inputmethod.rar').decode('utf-8')
     software.filenamefixed = ('Moto_inputmethod.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Quick Dial For Android2.08').decode('utf-8')
@@ -1061,8 +1062,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/i5/quickdial.rar').decode('utf-8')
     software.filename = ('quickdial.rar').decode('utf-8')
     software.filenamefixed = ('quickdial.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('BluetoothFileshare蓝牙传输 For Android2.30').decode('utf-8')
@@ -1080,8 +1081,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3s/wc/blueftp_Hiapk.rar').decode('utf-8')
     software.filename = ('blueftp_Hiapk.rar').decode('utf-8')
     software.filenamefixed = ('blueftp_Hiapk.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Evernote 全能便签 For Android1.15').decode('utf-8')
@@ -1099,8 +1100,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/fv/Evernote_v1.1.5_cn.rar').decode('utf-8')
     software.filename = ('Evernote_v1.1.5_cn.rar').decode('utf-8')
     software.filenamefixed = ('Evernote_v1.1.5_cn.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Ultimatefaves 终极收藏 For Android1.11').decode('utf-8')
@@ -1118,8 +1119,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/fu/ultimatefavespro.rar').decode('utf-8')
     software.filename = ('ultimatefavespro.rar').decode('utf-8')
     software.filenamefixed = ('ultimatefavespro.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('MoreLocale区域设置 For Android2.0.0').decode('utf-8')
@@ -1137,8 +1138,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3t/ei/morelocale2.rar').decode('utf-8')
     software.filename = ('morelocale2.rar').decode('utf-8')
     software.filenamefixed = ('morelocale2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AppControl程序管理 For Android1.4.10').decode('utf-8')
@@ -1156,8 +1157,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3s/w8/AppControl_v1.4.10.rar').decode('utf-8')
     software.filename = ('AppControl_v1.4.10.rar').decode('utf-8')
     software.filenamefixed = ('AppControl_v1.4.10.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('熊猫防火墙 for Android1.4').decode('utf-8')
@@ -1175,8 +1176,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/fn/91pandafirewall_v1.4.apk').decode('utf-8')
     software.filename = ('91pandafirewall_v1.4.apk').decode('utf-8')
     software.filenamefixed = ('91pandafirewall_v1.4.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Quick Setting快速设置 For Android1.8.5').decode('utf-8')
@@ -1194,8 +1195,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/61/quicksetting1.8.5_zh_cn_lvwind.rar').decode('utf-8')
     software.filename = ('quicksetting1.8.5_zh_cn_lvwind.rar').decode('utf-8')
     software.filenamefixed = ('quicksetting1.8.5_zh_cn_lvwind.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('NoteEverything For Android2.42').decode('utf-8')
@@ -1213,8 +1214,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/yn/noteeverything.rar').decode('utf-8')
     software.filename = ('noteeverything.rar').decode('utf-8')
     software.filenamefixed = ('noteeverything.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AndExplorer For Android1.2').decode('utf-8')
@@ -1232,8 +1233,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/w9/AndExplorer.rar').decode('utf-8')
     software.filename = ('AndExplorer.rar').decode('utf-8')
     software.filenamefixed = ('AndExplorer.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('智能监控 For Android2.1.8').decode('utf-8')
@@ -1251,8 +1252,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/u7/smartmonitor_2.1.8.rar').decode('utf-8')
     software.filename = ('smartmonitor_2.1.8.rar').decode('utf-8')
     software.filenamefixed = ('smartmonitor_2.1.8.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('TaskManager 高级任务管理器 for Android3.9').decode('utf-8')
@@ -1270,8 +1271,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3q/k4/taskmanager_3.9.apk').decode('utf-8')
     software.filename = ('taskmanager_3.9.apk').decode('utf-8')
     software.filenamefixed = ('taskmanager_3.9.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('下载管理器 For Android1.12').decode('utf-8')
@@ -1289,8 +1290,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/og/downdroid.rar').decode('utf-8')
     software.filename = ('downdroid.rar').decode('utf-8')
     software.filenamefixed = ('downdroid.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('文件系统管理 SUFBS For Android').decode('utf-8')
@@ -1308,8 +1309,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/lw/sufbs.rar').decode('utf-8')
     software.filename = ('sufbs.rar').decode('utf-8')
     software.filenamefixed = ('sufbs.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('X-uninstaller 应用程序批量删除 for Android').decode('utf-8')
@@ -1327,8 +1328,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/lv/android.XUninstaller.rar').decode('utf-8')
     software.filename = ('android.XUninstaller.rar').decode('utf-8')
     software.filenamefixed = ('android.XUninstaller.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Quick UNINSTALLER 一键卸载').decode('utf-8')
@@ -1346,8 +1347,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3s/lu/com.Mgeek.Android.Uninstaller.rar').decode('utf-8')
     software.filename = ('com.Mgeek.Android.Uninstaller.rar').decode('utf-8')
     software.filenamefixed = ('com.Mgeek.Android.Uninstaller.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aTrackDog 软件狗 For Android3.10').decode('utf-8')
@@ -1365,8 +1366,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/jp/atrackdog_3.10.rar').decode('utf-8')
     software.filename = ('atrackdog_3.10.rar').decode('utf-8')
     software.filenamefixed = ('atrackdog_3.10.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91拼音输入法 For Android1.1.2').decode('utf-8')
@@ -1384,8 +1385,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/ii/91pinyin_v1.1.2.rar').decode('utf-8')
     software.filename = ('91pinyin_v1.1.2.rar').decode('utf-8')
     software.filenamefixed = ('91pinyin_v1.1.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('OI File Manager For Android').decode('utf-8')
@@ -1403,8 +1404,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/81/1.0.0.openintents.filemanager.rar').decode('utf-8')
     software.filename = ('1.0.0.openintents.filemanager.rar').decode('utf-8')
     software.filenamefixed = ('1.0.0.openintents.filemanager.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('PhoneUsage For Android').decode('utf-8')
@@ -1422,8 +1423,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/6b/phoneUsage.rar').decode('utf-8')
     software.filename = ('phoneUsage.rar').decode('utf-8')
     software.filenamefixed = ('phoneUsage.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91笔画输入法 for Android1.0').decode('utf-8')
@@ -1441,8 +1442,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/az/91bihua_v1.0.0.apk').decode('utf-8')
     software.filename = ('91bihua_v1.0.0.apk').decode('utf-8')
     software.filenamefixed = ('91bihua_v1.0.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Blueftp For Android').decode('utf-8')
@@ -1460,8 +1461,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/00/blueftp.v1.6.CHS-OPDA.rar').decode('utf-8')
     software.filename = ('blueftp.v1.6.CHS-OPDA.rar').decode('utf-8')
     software.filenamefixed = ('blueftp.v1.6.CHS-OPDA.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('CameraPro For Android').decode('utf-8')
@@ -1479,8 +1480,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/ym/CameraPro2.6(mkjohnny).rar').decode('utf-8')
     software.filename = ('CameraPro2.6(mkjohnny).rar').decode('utf-8')
     software.filenamefixed = ('CameraPro2.6(mkjohnny).apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SmartReply For Android').decode('utf-8')
@@ -1498,8 +1499,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/yl/SmartReply.rar').decode('utf-8')
     software.filename = ('SmartReply.rar').decode('utf-8')
     software.filenamefixed = ('SmartReply.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SMSpopup For Android').decode('utf-8')
@@ -1517,8 +1518,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/qg/net.everythingandroid.smspopup.rar').decode('utf-8')
     software.filename = ('net.everythingandroid.smspopup.rar').decode('utf-8')
     software.filenamefixed = ('net.everythingandroid.smspopup.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('GScriptFull 脚本程序 For Android').decode('utf-8')
@@ -1536,8 +1537,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/pn/GScriptFull.v1.1.2.rar').decode('utf-8')
     software.filename = ('GScriptFull.v1.1.2.rar').decode('utf-8')
     software.filenamefixed = ('GScriptFull.v1.1.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('iCosta Chinese IME WuBi 86 五笔输入法 For Android1.1.0').decode('utf-8')
@@ -1555,8 +1556,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/ik/iCosta-wubi86-V1.1.0.rar').decode('utf-8')
     software.filename = ('iCosta-wubi86-V1.1.0.rar').decode('utf-8')
     software.filenamefixed = ('iCosta-wubi86-V1.1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('电源管理Power Manager For Android').decode('utf-8')
@@ -1574,8 +1575,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/d4/1.5.8.powermanager.rar').decode('utf-8')
     software.filename = ('1.5.8.powermanager.rar').decode('utf-8')
     software.filenamefixed = ('1.5.8.powermanager.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('MemoryForLemmings For Android').decode('utf-8')
@@ -1593,8 +1594,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/6s/com.ap.MemoryForLemmings.rar').decode('utf-8')
     software.filename = ('com.ap.MemoryForLemmings.rar').decode('utf-8')
     software.filenamefixed = ('com.ap.MemoryForLemmings.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SnapPhoto For Android1.0 简体版').decode('utf-8')
@@ -1612,8 +1613,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/6n/com.ap.SnapPhoto.rar').decode('utf-8')
     software.filename = ('com.ap.SnapPhoto.rar').decode('utf-8')
     software.filenamefixed = ('com.ap.SnapPhoto.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Astro 资源管理器 for Android').decode('utf-8')
@@ -1631,8 +1632,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3q/jz/com.metago.astro.apk').decode('utf-8')
     software.filename = ('com.metago.astro.apk').decode('utf-8')
     software.filenamefixed = ('com.metago.astro.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AnMMS for Android').decode('utf-8')
@@ -1650,8 +1651,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3q/jy/com.cngphone.AnMMS.apk').decode('utf-8')
     software.filename = ('com.cngphone.AnMMS.apk').decode('utf-8')
     software.filenamefixed = ('com.cngphone.AnMMS.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('A4输入法 for Android').decode('utf-8')
@@ -1669,8 +1670,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3q/jx/A4.apk').decode('utf-8')
     software.filename = ('A4.apk').decode('utf-8')
     software.filenamefixed = ('A4.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('大牛新闻 Nubinews For Android12.9').decode('utf-8')
@@ -1688,8 +1689,9 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/2w/ChinaReader12.9.apk').decode('utf-8')
     software.filename = ('ChinaReader12.9.apk').decode('utf-8')
     software.filenamefixed = ('ChinaReader12.9.apk').decode('utf-8')
-
     software.put()
+
+
 
     software = AndroidSoftware()
     software.title = ('腾讯微博 for Android1.3').decode('utf-8')
@@ -1707,8 +1709,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/7t/Tencent_Wblog_V1.3.0.apk').decode('utf-8')
     software.filename = ('Tencent_Wblog_V1.3.0.apk').decode('utf-8')
     software.filenamefixed = ('Tencent_Wblog_V1.3.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('开心网 for Android 1.0.2 Beta').decode('utf-8')
@@ -1726,8 +1728,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/86/kaixin_for_android_1.0.2beta2.apk').decode('utf-8')
     software.filename = ('kaixin_for_android_1.0.2beta2.apk').decode('utf-8')
     software.filenamefixed = ('kaixin_for_android_1.0.2beta2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('时光网 for Android1.07').decode('utf-8')
@@ -1745,8 +1747,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/4t/mtime1.0.7.apk').decode('utf-8')
     software.filename = ('mtime1.0.7.apk').decode('utf-8')
     software.filenamefixed = ('mtime1.0.7.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('UC浏览器 For Android7.2 正式版').decode('utf-8')
@@ -1764,8 +1766,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/5y/UCWEB-7.2.apk').decode('utf-8')
     software.filename = ('UCWEB-7.2.apk').decode('utf-8')
     software.filenamefixed = ('UCWEB-7.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('邻讯 for Android2.4.0').decode('utf-8')
@@ -1783,8 +1785,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/vo/linfo_android_v2.4.0.apk').decode('utf-8')
     software.filename = ('linfo_android_v2.4.0.apk').decode('utf-8')
     software.filenamefixed = ('linfo_android_v2.4.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91牧场 for Android1.05').decode('utf-8')
@@ -1802,8 +1804,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3q/0y/91ranch_for_android_v1.05.apk').decode('utf-8')
     software.filename = ('91ranch_for_android_v1.05.apk').decode('utf-8')
     software.filenamefixed = ('91ranch_for_android_v1.05.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Dolphin Browser 海豚浏览器 for Android3.0.1').decode('utf-8')
@@ -1821,8 +1823,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/wa/Dolphin3.0.1.apk').decode('utf-8')
     software.filename = ('Dolphin3.0.1.apk').decode('utf-8')
     software.filenamefixed = ('Dolphin3.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Opera Mini For Android 中国版5.1').decode('utf-8')
@@ -1840,8 +1842,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/hm/Opera_Mini_5_for_Android.apk').decode('utf-8')
     software.filename = ('Opera_Mini_5_for_Android.apk').decode('utf-8')
     software.filenamefixed = ('Opera_Mini_5_for_Android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ浏览器 for Android1.0 Build0020 预览版').decode('utf-8')
@@ -1859,8 +1861,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0r/fv/QQBrowser1.0(Android)_Preview_Build0020.apk').decode('utf-8')
     software.filename = ('QQBrowser1.0(Android)_Preview_Build0020.apk').decode('utf-8')
     software.filenamefixed = ('QQBrowser1.0(Android)_Preview_Build0020.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('飞流下载 for Android 4.0.2 Beta').decode('utf-8')
@@ -1878,8 +1880,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/1v/hh/FeeLiu_P33_Android_X_v4.0.2.apk').decode('utf-8')
     software.filename = ('FeeLiu_P33_Android_X_v4.0.2.apk').decode('utf-8')
     software.filenamefixed = ('FeeLiu_P33_Android_X_v4.0.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('飞信 For Android 2.2.1').decode('utf-8')
@@ -1897,8 +1899,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/30/9i/Fetion_AN21_GEN_GENERIC_Android221.apk').decode('utf-8')
     software.filename = ('Fetion_AN21_GEN_GENERIC_Android221.apk').decode('utf-8')
     software.filenamefixed = ('Fetion_AN21_GEN_GENERIC_Android221.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('手机QQ for Android1.0 Beta2 Build0193').decode('utf-8')
@@ -1916,8 +1918,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0r/09/MobileQQ1_0(Android)_beta2_build0193.apk').decode('utf-8')
     software.filename = ('MobileQQ1_0(Android)_beta2_build0193.apk').decode('utf-8')
     software.filenamefixed = ('MobileQQ1_0(Android)_beta2_build0193.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('UC浏览器 for Android（QVGA）7.2 正式版').decode('utf-8')
@@ -1935,8 +1937,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0k/v4/UCWEB-7.2-QVGA.apk').decode('utf-8')
     software.filename = ('UCWEB-7.2-QVGA.apk').decode('utf-8')
     software.filenamefixed = ('UCWEB-7.2-QVGA.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('网易掌上邮 for Android1.1.1').decode('utf-8')
@@ -1954,8 +1956,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/lj/pumail_android_normal_1.1.1_pumailweb.apk').decode('utf-8')
     software.filename = ('pumail_android_normal_1.1.1_pumailweb.apk').decode('utf-8')
     software.filenamefixed = ('pumail_android_normal_1.1.1_pumailweb.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('新浪微博手机客户端 for Android2.0').decode('utf-8')
@@ -1973,8 +1975,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0m/16/weibo_10205011.apk').decode('utf-8')
     software.filename = ('weibo_10205011.apk').decode('utf-8')
     software.filenamefixed = ('weibo_10205011.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('大众点评网 For Android3.0').decode('utf-8')
@@ -1992,8 +1994,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/d9/dpv3_r1.apk').decode('utf-8')
     software.filename = ('dpv3_r1.apk').decode('utf-8')
     software.filenamefixed = ('dpv3_r1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ空间 for Android').decode('utf-8')
@@ -2011,8 +2013,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/bj/qzone.apk').decode('utf-8')
     software.filename = ('qzone.apk').decode('utf-8')
     software.filenamefixed = ('qzone.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Skyfire 天火浏览器 for Android2.1.0').decode('utf-8')
@@ -2030,8 +2032,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/8j/skyfire.rar').decode('utf-8')
     software.filename = ('skyfire.rar').decode('utf-8')
     software.filenamefixed = ('skyfire.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('安卓市场 MARKET for Android1.60').decode('utf-8')
@@ -2049,8 +2051,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3u/68/HiMarket_1.60.apk').decode('utf-8')
     software.filename = ('HiMarket_1.60.apk').decode('utf-8')
     software.filenamefixed = ('HiMarket_1.60.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('xScope for Android5.30').decode('utf-8')
@@ -2068,8 +2070,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/06/xscope.rar').decode('utf-8')
     software.filename = ('xscope.rar').decode('utf-8')
     software.filenamefixed = ('xscope.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('UC浏览器 for OPhone 7.2 Beta').decode('utf-8')
@@ -2087,8 +2089,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0r/lp/UCWEB-7.2.0.46-999-141-10062314.apk').decode('utf-8')
     software.filename = ('UCWEB-7.2.0.46-999-141-10062314.apk').decode('utf-8')
     software.filenamefixed = ('UCWEB-7.2.0.46-999-141-10062314.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('安心360 for Android 2.12.0.7').decode('utf-8')
@@ -2106,8 +2108,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0c/is/ax360.apk').decode('utf-8')
     software.filename = ('ax360.apk').decode('utf-8')
     software.filenamefixed = ('ax360.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('网易微博 易推 for Android 1.5.0').decode('utf-8')
@@ -2125,8 +2127,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/is/EaseTwer-1.5.0.apk').decode('utf-8')
     software.filename = ('EaseTwer-1.5.0.apk').decode('utf-8')
     software.filenamefixed = ('EaseTwer-1.5.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Adobe Flash Player for Android10.1 Beta3').decode('utf-8')
@@ -2144,8 +2146,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/lo/Adobe_Flash_10.1_Android_2.1.apk').decode('utf-8')
     software.filename = ('Adobe_Flash_10.1_Android_2.1.apk').decode('utf-8')
     software.filenamefixed = ('Adobe_Flash_10.1_Android_2.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('4Call手机网络电话 for Android1.0.0.0').decode('utf-8')
@@ -2163,8 +2165,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/x5/4call_android.apk').decode('utf-8')
     software.filename = ('4call_android.apk').decode('utf-8')
     software.filenamefixed = ('4call_android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Firefox Fennec for Android预览版').decode('utf-8')
@@ -2182,8 +2184,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0r/sw/fennec.apk').decode('utf-8')
     software.filename = ('fennec.apk').decode('utf-8')
     software.filenamefixed = ('fennec.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('囧囧飞信 for Android2.2').decode('utf-8')
@@ -2201,8 +2203,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/0n/xt/OrzSms_android.apk').decode('utf-8')
     software.filename = ('OrzSms_android.apk').decode('utf-8')
     software.filenamefixed = ('OrzSms_android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('车模 for android').decode('utf-8')
@@ -2220,8 +2222,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/p6/chemo.apk').decode('utf-8')
     software.filename = ('chemo.apk').decode('utf-8')
     software.filenamefixed = ('chemo.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('开开k.ai for androidkaikai 20100525公测版').decode('utf-8')
@@ -2239,8 +2241,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/op/KaiKai_1.0.2_20100602_1013.apk').decode('utf-8')
     software.filename = ('KaiKai_1.0.2_20100602_1013.apk').decode('utf-8')
     software.filenamefixed = ('KaiKai_1.0.2_20100602_1013.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('yxplayer for Android1.4.1').decode('utf-8')
@@ -2258,8 +2260,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/ks/yxplayer.rar').decode('utf-8')
     software.filename = ('yxplayer.rar').decode('utf-8')
     software.filenamefixed = ('yxplayer.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('手机欢乐斗地主 for Android 1.0 内测版').decode('utf-8')
@@ -2277,8 +2279,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/30/QQHappyLord1.0build_0011.apk').decode('utf-8')
     software.filename = ('QQHappyLord1.0build_0011.apk').decode('utf-8')
     software.filenamefixed = ('QQHappyLord1.0build_0011.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('上网管家 for Android2.0').decode('utf-8')
@@ -2296,8 +2298,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3q/9k/guanjia.rar').decode('utf-8')
     software.filename = ('guanjia.rar').decode('utf-8')
     software.filenamefixed = ('guanjia.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Touiteur for Android1.20').decode('utf-8')
@@ -2315,8 +2317,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ph/touiteur.rar').decode('utf-8')
     software.filename = ('touiteur.rar').decode('utf-8')
     software.filenamefixed = ('touiteur.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('百度快搜 for Android1.0 beta').decode('utf-8')
@@ -2334,8 +2336,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/fo/baiduandroid.rar').decode('utf-8')
     software.filename = ('baiduandroid.rar').decode('utf-8')
     software.filenamefixed = ('baiduandroid.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('搜狐微博客户端 for Android1.03 Beta').decode('utf-8')
@@ -2353,8 +2355,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/1k/np/twisohu_v1.03.apk').decode('utf-8')
     software.filename = ('twisohu_v1.03.apk').decode('utf-8')
     software.filenamefixed = ('twisohu_v1.03.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('2010世界杯完全指南 for Android1.0').decode('utf-8')
@@ -2372,8 +2374,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3v/9k/shijiebei.rar').decode('utf-8')
     software.filename = ('shijiebei.rar').decode('utf-8')
     software.filenamefixed = ('shijiebei.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('手机旺旺 for Android1.0').decode('utf-8')
@@ -2391,8 +2393,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/aq/wangwang.rar').decode('utf-8')
     software.filename = ('wangwang.rar').decode('utf-8')
     software.filenamefixed = ('wangwang.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Alipay 支付宝手机客户端 for Android2.10.0409').decode('utf-8')
@@ -2410,8 +2412,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/du/alipay.apk').decode('utf-8')
     software.filename = ('alipay.apk').decode('utf-8')
     software.filenamefixed = ('alipay.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('手机旺旺买家版 for Android1.0 正式版').decode('utf-8')
@@ -2429,8 +2431,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ra/aliww1.0.apk').decode('utf-8')
     software.filename = ('aliww1.0.apk').decode('utf-8')
     software.filenamefixed = ('aliww1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('人人网 for Android 1.5').decode('utf-8')
@@ -2448,8 +2450,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/9r/renrenwang.apk').decode('utf-8')
     software.filename = ('renrenwang.apk').decode('utf-8')
     software.filenamefixed = ('renrenwang.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('逛逛世博会 for Android1.0').decode('utf-8')
@@ -2467,8 +2469,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/7s/shibohui.rar').decode('utf-8')
     software.filename = ('shibohui.rar').decode('utf-8')
     software.filenamefixed = ('shibohui.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌上百度 for Android2010 Beta2').decode('utf-8')
@@ -2486,8 +2488,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/kv/baidumobile_2010beta2_andriod_757b.apk').decode('utf-8')
     software.filename = ('baidumobile_2010beta2_andriod_757b.apk').decode('utf-8')
     software.filenamefixed = ('baidumobile_2010beta2_andriod_757b.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Dopool 手机电视 for Android1.6.1').decode('utf-8')
@@ -2505,8 +2507,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/03/eh/dopool.apk').decode('utf-8')
     software.filename = ('dopool.apk').decode('utf-8')
     software.filenamefixed = ('dopool.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Hi MSN for Android6.09').decode('utf-8')
@@ -2524,8 +2526,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/t1/himsn.rar').decode('utf-8')
     software.filename = ('himsn.rar').decode('utf-8')
     software.filenamefixed = ('himsn.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91百宝箱 for Android 2.1').decode('utf-8')
@@ -2543,8 +2545,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3n/pw/91pandaspace_v2.1.apk').decode('utf-8')
     software.filename = ('91pandaspace_v2.1.apk').decode('utf-8')
     software.filenamefixed = ('91pandaspace_v2.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('iBlog for Android').decode('utf-8')
@@ -2562,8 +2564,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/y2/iBlog.zip').decode('utf-8')
     software.filename = ('iBlog.zip').decode('utf-8')
     software.filenamefixed = ('iBlog.zip').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('randomchat 随机聊天 for Android1.0').decode('utf-8')
@@ -2581,8 +2583,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/uu/liaotian.rar').decode('utf-8')
     software.filename = ('liaotian.rar').decode('utf-8')
     software.filenamefixed = ('liaotian.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('迷你飞信 for Android1.2.2').decode('utf-8')
@@ -2600,8 +2602,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/ur/minifeixin.rar').decode('utf-8')
     software.filename = ('minifeixin.rar').decode('utf-8')
     software.filenamefixed = ('minifeixin.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('天涯论坛 for Android3.0').decode('utf-8')
@@ -2619,8 +2621,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3o/v7/TianYa.apk').decode('utf-8')
     software.filename = ('TianYa.apk').decode('utf-8')
     software.filenamefixed = ('TianYa.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('月光宝盒（开心网客户端） for Android 2.0.0').decode('utf-8')
@@ -2638,8 +2640,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/s3/moonbox.rar').decode('utf-8')
     software.filename = ('moonbox.rar').decode('utf-8')
     software.filenamefixed = ('moonbox.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Dropbox for Android').decode('utf-8')
@@ -2657,8 +2659,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/y7/DropBox1.2.apk').decode('utf-8')
     software.filename = ('DropBox1.2.apk').decode('utf-8')
     software.filenamefixed = ('DropBox1.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('MySoccer for Android 1.4').decode('utf-8')
@@ -2676,8 +2678,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/q9/mysoccer.rar').decode('utf-8')
     software.filename = ('mysoccer.rar').decode('utf-8')
     software.filenamefixed = ('mysoccer.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('血型分析 for android1.0').decode('utf-8')
@@ -2695,8 +2697,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/oh/xuexingfenxi.apk').decode('utf-8')
     software.filename = ('xuexingfenxi.apk').decode('utf-8')
     software.filenamefixed = ('xuexingfenxi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('标准体重计算器 for Android 1.0').decode('utf-8')
@@ -2714,8 +2716,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/n6/biaozhuntizhongjisuan.apk').decode('utf-8')
     software.filename = ('biaozhuntizhongjisuan.apk').decode('utf-8')
     software.filenamefixed = ('biaozhuntizhongjisuan.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('华风天气 for Android1.0').decode('utf-8')
@@ -2733,8 +2735,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/mo/tianqi.apk').decode('utf-8')
     software.filename = ('tianqi.apk').decode('utf-8')
     software.filenamefixed = ('tianqi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ农场助手 for Android2.0.3.0').decode('utf-8')
@@ -2752,8 +2754,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/02/bj/QQFarm-2.0.3.0.apk').decode('utf-8')
     software.filename = ('QQFarm-2.0.3.0.apk').decode('utf-8')
     software.filenamefixed = ('QQFarm-2.0.3.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Google Buzz widget for Android 汉化版1.0').decode('utf-8')
@@ -2771,8 +2773,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/1y/0e/google.android.apps.updates.widget_signed.apk').decode('utf-8')
     software.filename = ('google.android.apps.updates.widget_signed.apk').decode('utf-8')
     software.filenamefixed = ('google.android.apps.updates.widget_signed.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('购物助手 for Android1.1 稳定版').decode('utf-8')
@@ -2790,8 +2792,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/27/moshop_1.1.apk').decode('utf-8')
     software.filename = ('moshop_1.1.apk').decode('utf-8')
     software.filenamefixed = ('moshop_1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('芒果TV for Android1.6').decode('utf-8')
@@ -2809,8 +2811,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/gt/imgoTV.1.6.apk').decode('utf-8')
     software.filename = ('imgoTV.1.6.apk').decode('utf-8')
     software.filenamefixed = ('imgoTV.1.6.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('WiFi Analyzer 分析仪 for Android 1.10').decode('utf-8')
@@ -2828,8 +2830,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/dd/wifianalyzer_1.10.rar').decode('utf-8')
     software.filename = ('wifianalyzer_1.10.rar').decode('utf-8')
     software.filenamefixed = ('wifianalyzer_1.10.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Discover For Android 中文版').decode('utf-8')
@@ -2847,8 +2849,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/ij/dnsjwifi.apk').decode('utf-8')
     software.filename = ('dnsjwifi.apk').decode('utf-8')
     software.filenamefixed = ('dnsjwifi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Google Goggle for Android 1.0.1 简体中文版').decode('utf-8')
@@ -2866,8 +2868,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/yg/Goggle.apk').decode('utf-8')
     software.filename = ('Goggle.apk').decode('utf-8')
     software.filenamefixed = ('Goggle.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌上星空 For Android1.0.1008 Beta').decode('utf-8')
@@ -2885,8 +2887,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/iq/stmv1.0.1008.rar').decode('utf-8')
     software.filename = ('stmv1.0.1008.rar').decode('utf-8')
     software.filenamefixed = ('stmv1.0.1008.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('机锋下载 for Android1.0.0').decode('utf-8')
@@ -2904,8 +2906,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/6c/aMarket.1.0.0.rar').decode('utf-8')
     software.filename = ('aMarket.1.0.0.rar').decode('utf-8')
     software.filenamefixed = ('aMarket.1.0.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Google Shopper 谷歌购物 for Android1.0').decode('utf-8')
@@ -2923,8 +2925,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/4k/8f0ebf7eb41a408e8a6c864f69cffc12.rar').decode('utf-8')
     software.filename = ('8f0ebf7eb41a408e8a6c864f69cffc12.rar').decode('utf-8')
     software.filenamefixed = ('8f0ebf7eb41a408e8a6c864f69cffc12.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('DolphinBrowser For Android2.0.0').decode('utf-8')
@@ -2942,8 +2944,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/7e/DolphinBrowser_v1.3.1_zh_cn_lvwind.rar').decode('utf-8')
     software.filename = ('DolphinBrowser_v1.3.1_zh_cn_lvwind.rar').decode('utf-8')
     software.filenamefixed = ('DolphinBrowser_v1.3.1_zh_cn_lvwind.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌上淘宝 for Android1.0.1').decode('utf-8')
@@ -2961,8 +2963,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3k/3f/apkhome-taobao-1.0.1.rar').decode('utf-8')
     software.filename = ('apkhome-taobao-1.0.1.rar').decode('utf-8')
     software.filenamefixed = ('apkhome-taobao-1.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('傻子谷 for Android1.3').decode('utf-8')
@@ -2980,8 +2982,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/jm/shaziguv1.3_Android.apk').decode('utf-8')
     software.filename = ('shaziguv1.3_Android.apk').decode('utf-8')
     software.filenamefixed = ('shaziguv1.3_Android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('爱旅行iTravel For Android1.27').decode('utf-8')
@@ -2999,8 +3001,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/eo/1.27.apk').decode('utf-8')
     software.filename = ('1.27.apk').decode('utf-8')
     software.filenamefixed = ('1.27.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('手机QQ aQQ For Android1.2.1.Beta1').decode('utf-8')
@@ -3018,8 +3020,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/dy/aQQ1.2.1beta.apk').decode('utf-8')
     software.filename = ('aQQ1.2.1beta.apk').decode('utf-8')
     software.filenamefixed = ('aQQ1.2.1beta.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('CCTV 手机电视 For Android1.0').decode('utf-8')
@@ -3037,8 +3039,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3t/dw/CCTV_V1.0.rar').decode('utf-8')
     software.filename = ('CCTV_V1.0.rar').decode('utf-8')
     software.filenamefixed = ('CCTV_V1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91熊猫空间 For Android1.35').decode('utf-8')
@@ -3056,8 +3058,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3t/dm/91pandaspace_v1.35.rar').decode('utf-8')
     software.filename = ('91pandaspace_v1.35.rar').decode('utf-8')
     software.filenamefixed = ('91pandaspace_v1.35.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('PaderSyncFTP FTP For Android1.0.12').decode('utf-8')
@@ -3075,8 +3077,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/v9/ftp_1.0.12.rar').decode('utf-8')
     software.filename = ('ftp_1.0.12.rar').decode('utf-8')
     software.filenamefixed = ('ftp_1.0.12.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('酷6影院 For Android').decode('utf-8')
@@ -3094,8 +3096,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/p9/mteOVQv2.rar').decode('utf-8')
     software.filename = ('mteOVQv2.rar').decode('utf-8')
     software.filenamefixed = ('mteOVQv2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('优酷手机客户端 For Android').decode('utf-8')
@@ -3113,8 +3115,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/p8/BH1Onzww.rar').decode('utf-8')
     software.filename = ('BH1Onzww.rar').decode('utf-8')
     software.filenamefixed = ('BH1Onzww.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('QQ斗地主2009 for 谷歌AndroidBeta1').decode('utf-8')
@@ -3132,8 +3134,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/mc/QQLord2009Beta1_0002_signed.apk.rar').decode('utf-8')
     software.filename = ('QQLord2009Beta1_0002_signed.apk.rar').decode('utf-8')
     software.filenamefixed = ('QQLord2009Beta1_0002_signed.apk.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('hihotel 酒店通 For Android1.0.0').decode('utf-8')
@@ -3151,8 +3153,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/jr/org.allove.hihotel.rar').decode('utf-8')
     software.filename = ('org.allove.hihotel.rar').decode('utf-8')
     software.filenamefixed = ('org.allove.hihotel.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('中国电视节目预告 For Android2.01').decode('utf-8')
@@ -3170,8 +3172,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3s/jn/chinesetvguide.rar').decode('utf-8')
     software.filename = ('chinesetvguide.rar').decode('utf-8')
     software.filenamefixed = ('chinesetvguide.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('网流交警 for Android1.1.2').decode('utf-8')
@@ -3189,8 +3191,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3s/i4/nettraffic_v1.1.2.rar').decode('utf-8')
     software.filename = ('nettraffic_v1.1.2.rar').decode('utf-8')
     software.filenamefixed = ('nettraffic_v1.1.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('抓鹅移动空间 For Android 1.5Beta 1.0').decode('utf-8')
@@ -3208,8 +3210,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3s/g0/ZhuaeRss_1[1].0.0.0901111_Android.apk.rar').decode('utf-8')
     software.filename = ('ZhuaeRss_1[1].0.0.0901111_Android.apk.rar').decode('utf-8')
     software.filenamefixed = ('ZhuaeRss_1[1].0.0.0901111_Android.apk.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('抓鹅移动空间 for AndroidBeta 1.0').decode('utf-8')
@@ -3227,8 +3229,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/9t/ZhuaeRss_1.0.0.0911102_Ophone.apk').decode('utf-8')
     software.filename = ('ZhuaeRss_1.0.0.0911102_Ophone.apk').decode('utf-8')
     software.filenamefixed = ('ZhuaeRss_1.0.0.0911102_Ophone.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('在线涂鸦聊天 Scribblechat For Android').decode('utf-8')
@@ -3246,8 +3248,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/67/nmi.iii.org.tw.android.scribblechat.rar').decode('utf-8')
     software.filename = ('nmi.iii.org.tw.android.scribblechat.rar').decode('utf-8')
     software.filenamefixed = ('nmi.iii.org.tw.android.scribblechat.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aNetShare For Android').decode('utf-8')
@@ -3265,8 +3267,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/zz/aNetShare-v2-30-20090326.rar').decode('utf-8')
     software.filename = ('aNetShare-v2-30-20090326.rar').decode('utf-8')
     software.filenamefixed = ('aNetShare-v2-30-20090326.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SpeedTest For Android').decode('utf-8')
@@ -3284,8 +3286,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/yo/com.xtremelabs.android.speedtest.rar').decode('utf-8')
     software.filename = ('com.xtremelabs.android.speedtest.rar').decode('utf-8')
     software.filenamefixed = ('com.xtremelabs.android.speedtest.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('i love radio For Android').decode('utf-8')
@@ -3303,8 +3305,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/rq/com.spodtronic.radio.ilove_radio.rar').decode('utf-8')
     software.filename = ('com.spodtronic.radio.ilove_radio.rar').decode('utf-8')
     software.filenamefixed = ('com.spodtronic.radio.ilove_radio.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('盛名来电通 for Android1.2 Lite').decode('utf-8')
@@ -3322,8 +3324,9 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/x4/iCallMaster.apk').decode('utf-8')
     software.filename = ('iCallMaster.apk').decode('utf-8')
     software.filenamefixed = ('iCallMaster.apk').decode('utf-8')
-
     software.put()
+
+
 
     software = AndroidSoftware()
     software.title = ('金小蜂-隐私卫士 for Android0.7.59559').decode('utf-8')
@@ -3341,8 +3344,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/xs/AnMate.0.7.59939_10010001_self.apk').decode('utf-8')
     software.filename = ('AnMate.0.7.59939_10010001_self.apk').decode('utf-8')
     software.filenamefixed = ('AnMate.0.7.59939_10010001_self.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('金山手机卫士 for Android 2.3.33').decode('utf-8')
@@ -3360,8 +3363,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3o/3e/MoSecurity.2.3.33_10010001_self.apk').decode('utf-8')
     software.filename = ('MoSecurity.2.3.33_10010001_self.apk').decode('utf-8')
     software.filenamefixed = ('MoSecurity.2.3.33_10010001_self.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('连云助手 for Android3.5.0').decode('utf-8')
@@ -3379,8 +3382,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/67/lianyun.apk').decode('utf-8')
     software.filename = ('lianyun.apk').decode('utf-8')
     software.filenamefixed = ('lianyun.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('360手机卫士 for Android1.2.1.1006 Beta').decode('utf-8')
@@ -3398,8 +3401,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/v4/360MobileSafe_android.apk').decode('utf-8')
     software.filename = ('360MobileSafe_android.apk').decode('utf-8')
     software.filenamefixed = ('360MobileSafe_android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('网秦手机杀毒软件 for Android1.2 Beta').decode('utf-8')
@@ -3417,8 +3420,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/1k/26/NetQin_AV_Android_V1.2beta.apk').decode('utf-8')
     software.filename = ('NetQin_AV_Android_V1.2beta.apk').decode('utf-8')
     software.filenamefixed = ('NetQin_AV_Android_V1.2beta.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('来电通 For Android 1.0.4').decode('utf-8')
@@ -3436,8 +3439,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/wd/CallMaster_Android_104.apk').decode('utf-8')
     software.filename = ('CallMaster_Android_104.apk').decode('utf-8')
     software.filenamefixed = ('CallMaster_Android_104.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('柳丁来电 for Android1.01').decode('utf-8')
@@ -3455,8 +3458,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/y5/Newding_Android_V1.0.1_20100507.apk').decode('utf-8')
     software.filename = ('Newding_Android_V1.0.1_20100507.apk').decode('utf-8')
     software.filenamefixed = ('Newding_Android_V1.0.1_20100507.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('来电通数据库文件2010.0402').decode('utf-8')
@@ -3474,8 +3477,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3s/02/CallMaster_db_20100402.zip').decode('utf-8')
     software.filename = ('CallMaster_db_20100402.zip').decode('utf-8')
     software.filenamefixed = ('CallMaster_db_20100402.zip').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('连云防火墙 For Android2.0.0').decode('utf-8')
@@ -3493,8 +3496,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/ct/Chinese_aFirewall2.0.0_free_release_version.apk').decode('utf-8')
     software.filename = ('Chinese_aFirewall2.0.0_free_release_version.apk').decode('utf-8')
     software.filenamefixed = ('Chinese_aFirewall2.0.0_free_release_version.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Gblocker 来电过滤 For Android1.30').decode('utf-8')
@@ -3512,27 +3515,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3t/gz/uardam.gblocker_V1.3.0.rar').decode('utf-8')
     software.filename = ('uardam.gblocker_V1.3.0.rar').decode('utf-8')
     software.filenamefixed = ('uardam.gblocker_V1.3.0.apk').decode('utf-8')
-
     software.put()
 
-    software = AndroidSoftware()
-    software.title = ('ilomo趣味拍照 For Android 1.0').decode('utf-8')
-    software.desc = ('一款趣味照相软件，它将手机拍照与LOMO风格的时尚摄影相结合').decode('utf-8')
-    software.category = ('安全防护').decode('utf-8')
-    software.type = ('来电过滤').decode('utf-8')
-    software.size = ('1.49MB').decode('utf-8')
-    software.updatedate = convert_date('2010-01-05')
-    software.name = ('ilomo趣味拍照 For Android').decode('utf-8')
-    software.numbers = ('266').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3t/em/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/mobile/safe/firewall/detail-178078.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/safe/firewall/download-178078.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/safe/firewall/redirectsrv-178078-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/en/GyPSii_pAndroid_r1.1.2.472.rar').decode('utf-8')
-    software.filename = ('GyPSii_pAndroid_r1.1.2.472.rar').decode('utf-8')
-    software.filenamefixed = ('GyPSii_pAndroid_r1.1.2.472.apk').decode('utf-8')
-
-    software.put()
 
     software = AndroidSoftware()
     software.title = ('GyPSii图钉 For Android1.1.2.472').decode('utf-8')
@@ -3547,11 +3531,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/safe/firewall/detail-178079.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/safe/firewall/download-178079.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/safe/firewall/redirectsrv-178079-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0r/hl/91callinfo_v2.1.apk').decode('utf-8')
-    software.filename = ('91callinfo_v2.1.apk').decode('utf-8')
-    software.filenamefixed = ('91callinfo_v2.1.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/en/GyPSii_pAndroid_r1.1.2.472.rar').decode('utf-8')
+    software.filename = ('GyPSii_pAndroid_r1.1.2.472.rar').decode('utf-8')
+    software.filenamefixed = ('GyPSii_pAndroid_r1.1.2.472.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91来电秀 for Android2.1').decode('utf-8')
@@ -3566,11 +3550,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/safe/firewall/detail-35625.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/safe/firewall/download-35625.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/safe/firewall/redirectsrv-35625-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/q6/saymyname_2.5.3.rar').decode('utf-8')
-    software.filename = ('saymyname_2.5.3.rar').decode('utf-8')
-    software.filenamefixed = ('saymyname_2.5.3.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0r/hl/91callinfo_v2.1.apk').decode('utf-8')
+    software.filename = ('91callinfo_v2.1.apk').decode('utf-8')
+    software.filenamefixed = ('91callinfo_v2.1.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('来电自动语音报音 For Android2.5.3').decode('utf-8')
@@ -3585,11 +3569,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/safe/firewall/detail-177198.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/safe/firewall/download-177198.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/safe/firewall/redirectsrv-177198-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3s/q3/wsandroid_3.0.0.34.rar').decode('utf-8')
-    software.filename = ('wsandroid_3.0.0.34.rar').decode('utf-8')
-    software.filenamefixed = ('wsandroid_3.0.0.34.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/q6/saymyname_2.5.3.rar').decode('utf-8')
+    software.filename = ('saymyname_2.5.3.rar').decode('utf-8')
+    software.filenamefixed = ('saymyname_2.5.3.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('十方防盗神 For Android3.0.0.34').decode('utf-8')
@@ -3604,11 +3588,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/safe/system/detail-177195.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/safe/system/download-177195.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/safe/system/redirectsrv-177195-8.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/6t/com.ap.CallBlocker.rar').decode('utf-8')
-    software.filename = ('com.ap.CallBlocker.rar').decode('utf-8')
-    software.filenamefixed = ('com.ap.CallBlocker.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3s/q3/wsandroid_3.0.0.34.rar').decode('utf-8')
+    software.filename = ('wsandroid_3.0.0.34.rar').decode('utf-8')
+    software.filenamefixed = ('wsandroid_3.0.0.34.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('CallBlocker For Android').decode('utf-8')
@@ -3623,11 +3607,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/safe/firewall/detail-175205.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/safe/firewall/download-175205.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/safe/firewall/redirectsrv-175205-7.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/lk/kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
-    software.filename = ('kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
-    software.filenamefixed = ('kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/6t/com.ap.CallBlocker.rar').decode('utf-8')
+    software.filename = ('com.ap.CallBlocker.rar').decode('utf-8')
+    software.filenamefixed = ('com.ap.CallBlocker.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('酷我听听 for Android 0.8.0.4 Beta').decode('utf-8')
@@ -3642,11 +3626,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-27992.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-27992.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-27992-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/xl/RockPlayer_1.0.31_v6.apk').decode('utf-8')
-    software.filename = ('RockPlayer_1.0.31_v6.apk').decode('utf-8')
-    software.filenamefixed = ('RockPlayer_1.0.31_v6.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/lk/kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
+    software.filename = ('kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
+    software.filenamefixed = ('kwplayer_ar_0.8.0.5_pchome.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('RockPlayer for Android1.0.31').decode('utf-8')
@@ -3661,11 +3645,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/pda/wince/detail-31017.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-31017.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-31017-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/0n/wx/UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
-    software.filename = ('UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
-    software.filenamefixed = ('UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/xl/RockPlayer_1.0.31_v6.apk').decode('utf-8')
+    software.filename = ('RockPlayer_1.0.31_v6.apk').decode('utf-8')
+    software.filenamefixed = ('RockPlayer_1.0.31_v6.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('UC影音 for Android 2.2.0 内测版').decode('utf-8')
@@ -3680,11 +3664,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/pda/wince/detail-30993.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-30993.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-30993-8.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3w/1j/Camera360_v0.94.apk').decode('utf-8')
-    software.filename = ('Camera360_v0.94.apk').decode('utf-8')
-    software.filenamefixed = ('Camera360_v0.94.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/0n/wx/UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
+    software.filename = ('UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
+    software.filenamefixed = ('UCPLAYER-2.2.0.0-700-740-10071614_apk_Sign.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Camera360 for Android0.9.4').decode('utf-8')
@@ -3699,11 +3683,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/process/detail-181495.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/process/download-181495.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/process/redirectsrv-181495-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0q/vi/DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
-    software.filename = ('DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
-    software.filenamefixed = ('DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3w/1j/Camera360_v0.94.apk').decode('utf-8')
+    software.filename = ('Camera360_v0.94.apk').decode('utf-8')
+    software.filenamefixed = ('Camera360_v0.94.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('酷狗叮咚 for Android (HVGA)1.0 正式版').decode('utf-8')
@@ -3718,11 +3702,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-34830.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-34830.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-34830-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/y0/DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
-    software.filename = ('DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
-    software.filenamefixed = ('DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0q/vi/DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
+    software.filename = ('DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
+    software.filenamefixed = ('DingDong_Android_HVGA_V1.0.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('酷狗叮咚 for Android (WVGA)1.0 正式版').decode('utf-8')
@@ -3737,11 +3721,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-180072.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-180072.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-180072-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/6w/TTPod_android_1.10.apk').decode('utf-8')
-    software.filename = ('TTPod_android_1.10.apk').decode('utf-8')
-    software.filenamefixed = ('TTPod_android_1.10.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/y0/DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
+    software.filename = ('DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
+    software.filenamefixed = ('DingDong_Android_WVGA_V1.0.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('天天动听 for Android 1.10 正式版').decode('utf-8')
@@ -3756,11 +3740,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-180392.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-180392.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-180392-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0b/kp/KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
-    software.filename = ('KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
-    software.filenamefixed = ('KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/6w/TTPod_android_1.10.apk').decode('utf-8')
+    software.filename = ('TTPod_android_1.10.apk').decode('utf-8')
+    software.filenamefixed = ('TTPod_android_1.10.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('开心听 for Android1.0.0').decode('utf-8')
@@ -3775,11 +3759,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-15001.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-15001.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-15001-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/rh/ziwubofangqi.apk').decode('utf-8')
-    software.filename = ('ziwubofangqi.apk').decode('utf-8')
-    software.filenamefixed = ('ziwubofangqi.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0b/kp/KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
+    software.filename = ('KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
+    software.filenamefixed = ('KXT1.0.0_A1.6_320X480_N_(GF10000).apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('子午播放器 For Android0.19.1').decode('utf-8')
@@ -3794,11 +3778,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-177245.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-177245.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-177245-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0l/l1/ShootMe_0.7.3_cn.apk').decode('utf-8')
-    software.filename = ('ShootMe_0.7.3_cn.apk').decode('utf-8')
-    software.filenamefixed = ('ShootMe_0.7.3_cn.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/rh/ziwubofangqi.apk').decode('utf-8')
+    software.filename = ('ziwubofangqi.apk').decode('utf-8')
+    software.filenamefixed = ('ziwubofangqi.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('ShootMe for Android 汉化版0.73').decode('utf-8')
@@ -3813,11 +3797,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/pda/wince/detail-27973.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/image/download-27973.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/image/redirectsrv-27973-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/ld/mobgo_V1.7.0.apk').decode('utf-8')
-    software.filename = ('mobgo_V1.7.0.apk').decode('utf-8')
-    software.filenamefixed = ('mobgo_V1.7.0.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0l/l1/ShootMe_0.7.3_cn.apk').decode('utf-8')
+    software.filename = ('ShootMe_0.7.3_cn.apk').decode('utf-8')
+    software.filenamefixed = ('ShootMe_0.7.3_cn.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('摸手音乐 for Android1.7.0').decode('utf-8')
@@ -3832,11 +3816,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/pda/wince/detail-27985.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-27985.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-27985-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/fp/yinyue.rar').decode('utf-8')
-    software.filename = ('yinyue.rar').decode('utf-8')
-    software.filenamefixed = ('yinyue.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/ld/mobgo_V1.7.0.apk').decode('utf-8')
+    software.filename = ('mobgo_V1.7.0.apk').decode('utf-8')
+    software.filenamefixed = ('mobgo_V1.7.0.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('astro player 音乐播放器 for Android1.31').decode('utf-8')
@@ -3851,11 +3835,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-180709.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-180709.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-180709-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3p/1p/actvideo.apk').decode('utf-8')
-    software.filename = ('actvideo.apk').decode('utf-8')
-    software.filenamefixed = ('actvideo.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/fp/yinyue.rar').decode('utf-8')
+    software.filename = ('yinyue.rar').decode('utf-8')
+    software.filenamefixed = ('yinyue.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Act1 VideoPlayer For Android2.10.0.').decode('utf-8')
@@ -3870,11 +3854,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-172429.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-172429.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-172429-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/9t/mvideoplayer.apk').decode('utf-8')
-    software.filename = ('mvideoplayer.apk').decode('utf-8')
-    software.filenamefixed = ('mvideoplayer.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3p/1p/actvideo.apk').decode('utf-8')
+    software.filename = ('actvideo.apk').decode('utf-8')
+    software.filenamefixed = ('actvideo.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('mVideoPlayer for Android1.63').decode('utf-8')
@@ -3889,11 +3873,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-27569.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-27569.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-27569-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3v/39/ezimba.rar').decode('utf-8')
-    software.filename = ('ezimba.rar').decode('utf-8')
-    software.filenamefixed = ('ezimba.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/9t/mvideoplayer.apk').decode('utf-8')
+    software.filename = ('mvideoplayer.apk').decode('utf-8')
+    software.filenamefixed = ('mvideoplayer.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('ezimba 图像处理 for Android5.60').decode('utf-8')
@@ -3908,11 +3892,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/image/detail-180261.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/image/download-180261.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/image/redirectsrv-180261-2.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/9l/lekan.rar').decode('utf-8')
-    software.filename = ('lekan.rar').decode('utf-8')
-    software.filenamefixed = ('lekan.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3v/39/ezimba.rar').decode('utf-8')
+    software.filename = ('ezimba.rar').decode('utf-8')
+    software.filenamefixed = ('ezimba.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('乐看影音 for Android 1.2.1').decode('utf-8')
@@ -3927,11 +3911,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-180489.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-180489.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-180489-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/2k/yxflash.rar').decode('utf-8')
-    software.filename = ('yxflash.rar').decode('utf-8')
-    software.filenamefixed = ('yxflash.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3v/9l/lekan.rar').decode('utf-8')
+    software.filename = ('lekan.rar').decode('utf-8')
+    software.filenamefixed = ('lekan.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('yxflash for Andorid1.3.2.').decode('utf-8')
@@ -3946,11 +3930,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-180236.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-180236.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-180236-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/29/pictureup.rar').decode('utf-8')
-    software.filename = ('pictureup.rar').decode('utf-8')
-    software.filenamefixed = ('pictureup.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/2k/yxflash.rar').decode('utf-8')
+    software.filename = ('yxflash.rar').decode('utf-8')
+    software.filenamefixed = ('yxflash.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('pictureup 天下美图 for Android 1.0').decode('utf-8')
@@ -3965,11 +3949,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/image/detail-180225.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/image/download-180225.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/image/redirectsrv-180225-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ut/audio.rar').decode('utf-8')
-    software.filename = ('audio.rar').decode('utf-8')
-    software.filenamefixed = ('audio.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/29/pictureup.rar').decode('utf-8')
+    software.filename = ('pictureup.rar').decode('utf-8')
+    software.filenamefixed = ('pictureup.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AudioManager Pro 声音管理 for Android 1.2.5').decode('utf-8')
@@ -3984,11 +3968,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/process/detail-179957.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/process/download-179957.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/process/redirectsrv-179957-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/ow/WuzhenhuaPlayer4.1.apk').decode('utf-8')
-    software.filename = ('WuzhenhuaPlayer4.1.apk').decode('utf-8')
-    software.filenamefixed = ('WuzhenhuaPlayer4.1.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ut/audio.rar').decode('utf-8')
+    software.filename = ('audio.rar').decode('utf-8')
+    software.filenamefixed = ('audio.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('WuzhenhuaPlayer全能播放器 For Android4.1').decode('utf-8')
@@ -4003,11 +3987,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-178448.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-178448.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-178448-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/32/douban_v1.2.3.apk').decode('utf-8')
-    software.filename = ('douban_v1.2.3.apk').decode('utf-8')
-    software.filenamefixed = ('douban_v1.2.3.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/ow/WuzhenhuaPlayer4.1.apk').decode('utf-8')
+    software.filename = ('WuzhenhuaPlayer4.1.apk').decode('utf-8')
+    software.filenamefixed = ('WuzhenhuaPlayer4.1.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('豆瓣电台 for Android1.23').decode('utf-8')
@@ -4022,11 +4006,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-175070.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-175070.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-175070-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ha/TuneWikiV1.7cn.apk').decode('utf-8')
-    software.filename = ('TuneWikiV1.7cn.apk').decode('utf-8')
-    software.filenamefixed = ('TuneWikiV1.7cn.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/32/douban_v1.2.3.apk').decode('utf-8')
+    software.filename = ('douban_v1.2.3.apk').decode('utf-8')
+    software.filenamefixed = ('douban_v1.2.3.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('TuneWiki音乐播放器 for Android1.7').decode('utf-8')
@@ -4041,11 +4025,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/mobile/multimedia/mediaplayer/detail-179470.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-179470.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-179470-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/43/9BoxAndroid_Signed_0223.rar').decode('utf-8')
-    software.filename = ('9BoxAndroid_Signed_0223.rar').decode('utf-8')
-    software.filenamefixed = ('9BoxAndroid_Signed_0223.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ha/TuneWikiV1.7cn.apk').decode('utf-8')
+    software.filename = ('TuneWikiV1.7cn.apk').decode('utf-8')
+    software.filenamefixed = ('TuneWikiV1.7cn.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('9Box手机音乐播放器 for Android 1.50.13.20').decode('utf-8')
@@ -4060,11 +4044,11 @@ class SoftwareInit(webapp.RequestHandler):
     software.link = ('http://download.pchome.net/multimedia/media/detail-178995.html').decode('utf-8')
     software.downloadurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/download-178995.html').decode('utf-8')
     software.downloadpageurl = ('http://download.pchome.net/mobile/multimedia/mediaplayer/redirectsrv-178995-8.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/jr/MaplePlayer_V1.4.2.rar').decode('utf-8')
-    software.filename = ('MaplePlayer_V1.4.2.rar').decode('utf-8')
-    software.filenamefixed = ('MaplePlayer_V1.4.2.apk').decode('utf-8')
-
+    software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/43/9BoxAndroid_Signed_0223.rar').decode('utf-8')
+    software.filename = ('9BoxAndroid_Signed_0223.rar').decode('utf-8')
+    software.filenamefixed = ('9BoxAndroid_Signed_0223.apk').decode('utf-8')
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('MaplePlayer For Android1.4.2').decode('utf-8')
@@ -4082,8 +4066,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/jr/MaplePlayer_V1.4.2.rar').decode('utf-8')
     software.filename = ('MaplePlayer_V1.4.2.rar').decode('utf-8')
     software.filenamefixed = ('MaplePlayer_V1.4.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Alarmed For Android').decode('utf-8')
@@ -4101,8 +4085,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3o/r5/alarmedlite.rar').decode('utf-8')
     software.filename = ('alarmedlite.rar').decode('utf-8')
     software.filenamefixed = ('alarmedlite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Realcalc For Android1.3').decode('utf-8')
@@ -4120,8 +4104,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3o/t5/RealCalc.1.3_HiAPK.rar').decode('utf-8')
     software.filename = ('RealCalc.1.3_HiAPK.rar').decode('utf-8')
     software.filenamefixed = ('RealCalc.1.3_HiAPK.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('视频播放器 For Android1.13.0').decode('utf-8')
@@ -4139,8 +4123,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/rz/act_1_video_player.rar').decode('utf-8')
     software.filename = ('act_1_video_player.rar').decode('utf-8')
     software.filenamefixed = ('act_1_video_player.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('幻灯片播放 For Android1.86').decode('utf-8')
@@ -4158,8 +4142,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/ry/org.tetedebois.android.picaslidelite.rar').decode('utf-8')
     software.filename = ('org.tetedebois.android.picaslidelite.rar').decode('utf-8')
     software.filenamefixed = ('org.tetedebois.android.picaslidelite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Bluebrush For Android').decode('utf-8')
@@ -4177,8 +4161,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/68/Bluebrush.rar').decode('utf-8')
     software.filename = ('Bluebrush.rar').decode('utf-8')
     software.filenamefixed = ('Bluebrush.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('LukLuk For Android').decode('utf-8')
@@ -4196,8 +4180,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/yp/com.avaw.luklukpro.rar').decode('utf-8')
     software.filename = ('com.avaw.luklukpro.rar').decode('utf-8')
     software.filenamefixed = ('com.avaw.luklukpro.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Meridian影音播放器 for Android').decode('utf-8')
@@ -4215,8 +4199,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/i8/Meridian_Beta_12.1.rar').decode('utf-8')
     software.filename = ('Meridian_Beta_12.1.rar').decode('utf-8')
     software.filenamefixed = ('Meridian_Beta_12.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('MixZing Lite For Android2.0.1').decode('utf-8')
@@ -4234,8 +4218,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/i3/MixZing_Lite_2.0.1.rar').decode('utf-8')
     software.filename = ('MixZing_Lite_2.0.1.rar').decode('utf-8')
     software.filenamefixed = ('MixZing_Lite_2.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Photoslide 图片浏览器 for Android').decode('utf-8')
@@ -4253,8 +4237,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3q/k2/com.android.photoslide.apk').decode('utf-8')
     software.filename = ('com.android.photoslide.apk').decode('utf-8')
     software.filenamefixed = ('com.android.photoslide.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('nswPlayer 播放器 for Android').decode('utf-8')
@@ -4272,8 +4256,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3q/k1/com.nsw.android.mediaexplorer.apk').decode('utf-8')
     software.filename = ('com.nsw.android.mediaexplorer.apk').decode('utf-8')
     software.filenamefixed = ('com.nsw.android.mediaexplorer.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('UC桌面 for Android1.6 Beta').decode('utf-8')
@@ -4291,8 +4275,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/01/9a/UCDESK-1.6.0.1-600-630-10070917.apk').decode('utf-8')
     software.filename = ('UCDESK-1.6.0.1-600-630-10070917.apk').decode('utf-8')
     software.filenamefixed = ('UCDESK-1.6.0.1-600-630-10070917.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('iWallpapers For Andorid').decode('utf-8')
@@ -4310,8 +4294,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0u/hb/appwill.iWallpapers.apk').decode('utf-8')
     software.filename = ('appwill.iWallpapers.apk').decode('utf-8')
     software.filenamefixed = ('appwill.iWallpapers.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Open Home for Android 4.9.2').decode('utf-8')
@@ -4329,8 +4313,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3t/i7/openhome.rar').decode('utf-8')
     software.filename = ('openhome.rar').decode('utf-8')
     software.filenamefixed = ('openhome.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Beautiful Widgets for Android2.999').decode('utf-8')
@@ -4348,8 +4332,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/e7/widgets.rar').decode('utf-8')
     software.filename = ('widgets.rar').decode('utf-8')
     software.filenamefixed = ('widgets.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aHome for AndroidV3.1.1').decode('utf-8')
@@ -4367,8 +4351,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/6b/ahome.rar').decode('utf-8')
     software.filename = ('ahome.rar').decode('utf-8')
     software.filenamefixed = ('ahome.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91Ihome桌面 For Android1.5.0').decode('utf-8')
@@ -4386,8 +4370,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/id/91ihome.rar').decode('utf-8')
     software.filename = ('91ihome.rar').decode('utf-8')
     software.filenamefixed = ('91ihome.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Pure Grid calendar widget for Android1.92').decode('utf-8')
@@ -4405,8 +4389,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/eq/pure.apk').decode('utf-8')
     software.filename = ('pure.apk').decode('utf-8')
     software.filenamefixed = ('pure.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('熊猫桌面2 For Android 1.0').decode('utf-8')
@@ -4424,8 +4408,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3p/z6/91pandahome2_v1.0.apk').decode('utf-8')
     software.filename = ('91pandahome2_v1.0.apk').decode('utf-8')
     software.filenamefixed = ('91pandahome2_v1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('熊猫桌面 For Android 1.9').decode('utf-8')
@@ -4443,8 +4427,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3p/z7/91pandahome_v1.90.rar').decode('utf-8')
     software.filename = ('91pandahome_v1.90.rar').decode('utf-8')
     software.filenamefixed = ('91pandahome_v1.90.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('海卓懒人记账 for Android0.7.0').decode('utf-8')
@@ -4462,8 +4446,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3w/ao/HiBalance_0.7.0.apk').decode('utf-8')
     software.filename = ('HiBalance_0.7.0.apk').decode('utf-8')
     software.filenamefixed = ('HiBalance_0.7.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('大智慧超赢手机版 V5.20 (免费-Gphone版) for Android').decode('utf-8')
@@ -4481,8 +4465,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/1c/6u/DaZhiHui_Gphone5.20_4123.apk').decode('utf-8')
     software.filename = ('DaZhiHui_Gphone5.20_4123.apk').decode('utf-8')
     software.filenamefixed = ('DaZhiHui_Gphone5.20_4123.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('超级理财 for Android1.1').decode('utf-8')
@@ -4500,8 +4484,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/d2/SuperMoney_V1.1.apk').decode('utf-8')
     software.filename = ('SuperMoney_V1.1.apk').decode('utf-8')
     software.filenamefixed = ('SuperMoney_V1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('挖财365手机记账 for Android1.0.0.11').decode('utf-8')
@@ -4519,8 +4503,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3o/k3/Wacai365_1.0.0.11.apk').decode('utf-8')
     software.filename = ('Wacai365_1.0.0.11.apk').decode('utf-8')
     software.filenamefixed = ('Wacai365_1.0.0.11.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('墨迹天气 for Android （固件1.6及以上）1.02 Beta').decode('utf-8')
@@ -4538,8 +4522,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/c2/mojitianqi.apk').decode('utf-8')
     software.filename = ('mojitianqi.apk').decode('utf-8')
     software.filenamefixed = ('mojitianqi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('墨迹天气 for Android （固件1.5）1.00 正式版').decode('utf-8')
@@ -4557,8 +4541,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/c2/mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
     software.filename = ('mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
     software.filenamefixed = ('mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('墨迹天气 for Android （固件1.5）1.00 正式版').decode('utf-8')
@@ -4576,8 +4560,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/c2/mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
     software.filename = ('mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
     software.filenamefixed = ('mojiWeather_1.00_android1.5_org.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('司机小秘 for Android1.1 Beta').decode('utf-8')
@@ -4595,8 +4579,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/p7/drivers.apk').decode('utf-8')
     software.filename = ('drivers.apk').decode('utf-8')
     software.filenamefixed = ('drivers.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('weather widgets For Android5.9').decode('utf-8')
@@ -4614,8 +4598,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/d5/weather.apk').decode('utf-8')
     software.filename = ('weather.apk').decode('utf-8')
     software.filenamefixed = ('weather.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Tap Money Tracker For Android1.6.4').decode('utf-8')
@@ -4633,8 +4617,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/wz/tap.rar').decode('utf-8')
     software.filename = ('tap.rar').decode('utf-8')
     software.filenamefixed = ('tap.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('EasyMoney 轻松理财 For Android1.4.5').decode('utf-8')
@@ -4652,8 +4636,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0r/mz/easymoney.full.v1.4.5.apk').decode('utf-8')
     software.filename = ('easymoney.full.v1.4.5.apk').decode('utf-8')
     software.filenamefixed = ('easymoney.full.v1.4.5.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Alarm Master For Android1.0.2.').decode('utf-8')
@@ -4671,8 +4655,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3o/92/alarm.apk').decode('utf-8')
     software.filename = ('alarm.apk').decode('utf-8')
     software.filenamefixed = ('alarm.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('腾龙天气 for Android1.0').decode('utf-8')
@@ -4690,8 +4674,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/d9/tenglong.rar').decode('utf-8')
     software.filename = ('tenglong.rar').decode('utf-8')
     software.filenamefixed = ('tenglong.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('同花顺手机炒股 for Android').decode('utf-8')
@@ -4709,8 +4693,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/1u/6q/Hexin.apk').decode('utf-8')
     software.filename = ('Hexin.apk').decode('utf-8')
     software.filenamefixed = ('Hexin.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('玩转世博 for Android1.3').decode('utf-8')
@@ -4728,8 +4712,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3u/z1/shibo.rar').decode('utf-8')
     software.filename = ('shibo.rar').decode('utf-8')
     software.filenamefixed = ('shibo.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('JustSit for Android0.30').decode('utf-8')
@@ -4747,8 +4731,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/37/justsit.rar').decode('utf-8')
     software.filename = ('justsit.rar').decode('utf-8')
     software.filenamefixed = ('justsit.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('谷歌星空 Google Sky Map For Android1.5').decode('utf-8')
@@ -4766,8 +4750,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3r/6o/gugexinkong.rar').decode('utf-8')
     software.filename = ('gugexinkong.rar').decode('utf-8')
     software.filenamefixed = ('gugexinkong.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Klaxon 闹钟 for Android4.3.2').decode('utf-8')
@@ -4785,8 +4769,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/74/klaxon.rar').decode('utf-8')
     software.filename = ('klaxon.rar').decode('utf-8')
     software.filenamefixed = ('klaxon.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('订餐小秘书 for Android1.1').decode('utf-8')
@@ -4804,8 +4788,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-cnc-1.pchome.net/3v/0a/dingcan.rar').decode('utf-8')
     software.filename = ('dingcan.rar').decode('utf-8')
     software.filenamefixed = ('dingcan.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('网秦通讯管家 for Android 3.0').decode('utf-8')
@@ -4823,8 +4807,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/1t/yn/NetQin_P9975_CM_Android2.0_V3.0.apk').decode('utf-8')
     software.filename = ('NetQin_P9975_CM_Android2.0_V3.0.apk').decode('utf-8')
     software.filenamefixed = ('NetQin_P9975_CM_Android2.0_V3.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('投资组合 for Android1.3').decode('utf-8')
@@ -4842,8 +4826,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/lr/touzizhuhe.apk').decode('utf-8')
     software.filename = ('touzizhuhe.apk').decode('utf-8')
     software.filenamefixed = ('touzizhuhe.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Battery Status for Android 3.1').decode('utf-8')
@@ -4861,8 +4845,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/eh/Battery_Status_v3.1.apk').decode('utf-8')
     software.filename = ('Battery_Status_v3.1.apk').decode('utf-8')
     software.filenamefixed = ('Battery_Status_v3.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Vignette10.03.11').decode('utf-8')
@@ -4880,8 +4864,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/bm/Vignette.v10.03.11.rar').decode('utf-8')
     software.filename = ('Vignette.v10.03.11.rar').decode('utf-8')
     software.filenamefixed = ('Vignette.v10.03.11.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('OpenAlarm for Android20100221').decode('utf-8')
@@ -4899,8 +4883,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/78/Openalarm.rar').decode('utf-8')
     software.filename = ('Openalarm.rar').decode('utf-8')
     software.filenamefixed = ('Openalarm.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('著名扩展Cooliris OEM的超酷图库').decode('utf-8')
@@ -4918,8 +4902,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/3f/CoolirisOEM.apk').decode('utf-8')
     software.filename = ('CoolirisOEM.apk').decode('utf-8')
     software.filenamefixed = ('CoolirisOEM.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('整合天气、闹钟的桌面时钟').decode('utf-8')
@@ -4937,8 +4921,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/3e/cok.rar').decode('utf-8')
     software.filename = ('cok.rar').decode('utf-8')
     software.filenamefixed = ('cok.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Home屏幕上的“新闻和天气”插件').decode('utf-8')
@@ -4956,8 +4940,9 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/3d/Homeww.apk').decode('utf-8')
     software.filename = ('Homeww.apk').decode('utf-8')
     software.filenamefixed = ('Homeww.apk').decode('utf-8')
-
     software.put()
+
+
 
     software = AndroidSoftware()
     software.title = ('金太阳证券手机炒股票 for Android3.2.3.1.1').decode('utf-8')
@@ -4975,8 +4960,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/sq/guosenAndroid.rar').decode('utf-8')
     software.filename = ('guosenAndroid.rar').decode('utf-8')
     software.filenamefixed = ('guosenAndroid.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('首讯生活助理 For Android1.1').decode('utf-8')
@@ -4994,8 +4979,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/gw/CPopoHi1.5rd1.1.rar').decode('utf-8')
     software.filename = ('CPopoHi1.5rd1.1.rar').decode('utf-8')
     software.filenamefixed = ('CPopoHi1.5rd1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('智能闹钟 For Android3.0.6').decode('utf-8')
@@ -5013,8 +4998,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/rm/klaxon_3.0.6.rar').decode('utf-8')
     software.filename = ('klaxon_3.0.6.rar').decode('utf-8')
     software.filenamefixed = ('klaxon_3.0.6.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('WiFinder WiFi 扫描软件 For Android').decode('utf-8')
@@ -5032,8 +5017,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/p6/WiFinder.rar').decode('utf-8')
     software.filename = ('WiFinder.rar').decode('utf-8')
     software.filenamefixed = ('WiFinder.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('条码扫描器 For Android3.5.1').decode('utf-8')
@@ -5051,8 +5036,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/kn/com.biggu.shopsavvy.rar').decode('utf-8')
     software.filename = ('com.biggu.shopsavvy.rar').decode('utf-8')
     software.filenamefixed = ('com.biggu.shopsavvy.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91天气秀 For Android1.0.1').decode('utf-8')
@@ -5070,8 +5055,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/ic/91weather_1.0.1.rar').decode('utf-8')
     software.filename = ('91weather_1.0.1.rar').decode('utf-8')
     software.filenamefixed = ('91weather_1.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91股票秀 For Android1.1').decode('utf-8')
@@ -5089,8 +5074,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/ib/91stock1.1.rar').decode('utf-8')
     software.filename = ('91stock1.1.rar').decode('utf-8')
     software.filenamefixed = ('91stock1.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91试心石 For Android1.0').decode('utf-8')
@@ -5108,8 +5093,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3s/i5/91hearttest_1.0.rar').decode('utf-8')
     software.filename = ('91hearttest_1.0.rar').decode('utf-8')
     software.filenamefixed = ('91hearttest_1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('天天电视预告 For Android').decode('utf-8')
@@ -5127,8 +5112,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/ga/com.luke.chinesetvguide.rar').decode('utf-8')
     software.filename = ('com.luke.chinesetvguide.rar').decode('utf-8')
     software.filenamefixed = ('com.luke.chinesetvguide.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('PictureMapper For Android').decode('utf-8')
@@ -5146,8 +5131,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/6a/de.ovengamedia.PictureMapper.rar').decode('utf-8')
     software.filename = ('de.ovengamedia.PictureMapper.rar').decode('utf-8')
     software.filenamefixed = ('de.ovengamedia.PictureMapper.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('同花顺G1手机炒股高端公测版').decode('utf-8')
@@ -5165,8 +5150,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/0q/Gphone1.1.zip').decode('utf-8')
     software.filename = ('Gphone1.1.zip').decode('utf-8')
     software.filenamefixed = ('Gphone1.1.zip').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Calendarwidget For Android').decode('utf-8')
@@ -5184,8 +5169,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/yn/Pure_Calendar_widget.rar').decode('utf-8')
     software.filename = ('Pure_Calendar_widget.rar').decode('utf-8')
     software.filenamefixed = ('Pure_Calendar_widget.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('compass For Android').decode('utf-8')
@@ -5203,8 +5188,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/wy/com.apksoftware.compass.rar').decode('utf-8')
     software.filename = ('com.apksoftware.compass.rar').decode('utf-8')
     software.filenamefixed = ('com.apksoftware.compass.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Astro For Android').decode('utf-8')
@@ -5222,8 +5207,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/wx/com.metago.astro.rar').decode('utf-8')
     software.filename = ('com.metago.astro.rar').decode('utf-8')
     software.filenamefixed = ('com.metago.astro.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('NetMeter For Android').decode('utf-8')
@@ -5241,8 +5226,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/ro/netmeter.rar').decode('utf-8')
     software.filename = ('netmeter.rar').decode('utf-8')
     software.filenamefixed = ('netmeter.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('LokPixLite For Android').decode('utf-8')
@@ -5260,8 +5245,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/pm/LokPixLite.rar').decode('utf-8')
     software.filename = ('LokPixLite.rar').decode('utf-8')
     software.filenamefixed = ('LokPixLite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('B-Folders 公文包 For Android').decode('utf-8')
@@ -5279,8 +5264,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/lx/B-Folders.rar').decode('utf-8')
     software.filename = ('B-Folders.rar').decode('utf-8')
     software.filenamefixed = ('B-Folders.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('lottery 福彩体彩开奖查询软件 For Android').decode('utf-8')
@@ -5298,8 +5283,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3r/lw/lottery1.0.1.rar').decode('utf-8')
     software.filename = ('lottery1.0.1.rar').decode('utf-8')
     software.filenamefixed = ('lottery1.0.1.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('SpySnapshot间谍快照 For Android').decode('utf-8')
@@ -5317,8 +5302,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/i5/SpySnapshot-1.7.rar').decode('utf-8')
     software.filename = ('SpySnapshot-1.7.rar').decode('utf-8')
     software.filenamefixed = ('SpySnapshot-1.7.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('rockout For Android').decode('utf-8')
@@ -5336,8 +5321,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/fu/com.activefrequency.android.rockout.rar').decode('utf-8')
     software.filename = ('com.activefrequency.android.rockout.rar').decode('utf-8')
     software.filenamefixed = ('com.activefrequency.android.rockout.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('symmetricam 特效相机软件 For Android').decode('utf-8')
@@ -5355,8 +5340,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/ft/ymst.android.symmetricam.rar').decode('utf-8')
     software.filename = ('ymst.android.symmetricam.rar').decode('utf-8')
     software.filenamefixed = ('ymst.android.symmetricam.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AstroClock For Android').decode('utf-8')
@@ -5374,8 +5359,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/em/arnodenhond.astroclocklite.rar').decode('utf-8')
     software.filename = ('arnodenhond.astroclocklite.rar').decode('utf-8')
     software.filenamefixed = ('arnodenhond.astroclocklite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aCurrency For Android').decode('utf-8')
@@ -5393,8 +5378,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/el/com.a0soft.gphone.aCurrency.rar').decode('utf-8')
     software.filename = ('com.a0soft.gphone.aCurrency.rar').decode('utf-8')
     software.filenamefixed = ('com.a0soft.gphone.aCurrency.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('cam painter趣味涂鸦软件 For Android').decode('utf-8')
@@ -5412,8 +5397,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3r/ej/com.armingmobile.campainterlite.rar').decode('utf-8')
     software.filename = ('com.armingmobile.campainterlite.rar').decode('utf-8')
     software.filenamefixed = ('com.armingmobile.campainterlite.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('桌面快捷方式Bettercut简体版 For Android').decode('utf-8')
@@ -5431,8 +5416,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3r/d3/bettercut.v1.2.2.rar').decode('utf-8')
     software.filename = ('bettercut.v1.2.2.rar').decode('utf-8')
     software.filenamefixed = ('bettercut.v1.2.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('绘图软件PicSay Pro For Android1.3.3').decode('utf-8')
@@ -5450,8 +5435,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/d2/PicSay_Pro_1.3.3(mkjohnny).rar').decode('utf-8')
     software.filename = ('PicSay_Pro_1.3.3(mkjohnny).rar').decode('utf-8')
     software.filenamefixed = ('PicSay_Pro_1.3.3(mkjohnny).apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Tricorder For Android').decode('utf-8')
@@ -5469,8 +5454,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3r/c0/org.hermit.tricorder.rar').decode('utf-8')
     software.filename = ('org.hermit.tricorder.rar').decode('utf-8')
     software.filenamefixed = ('org.hermit.tricorder.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('短信提示器screenon For Android').decode('utf-8')
@@ -5488,8 +5473,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/by/com.blau.android.screenon.rar').decode('utf-8')
     software.filename = ('com.blau.android.screenon.rar').decode('utf-8')
     software.filenamefixed = ('com.blau.android.screenon.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('徒步旅行软件 Hiker For Android').decode('utf-8')
@@ -5507,8 +5492,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/6l/com.android.hiker.rar').decode('utf-8')
     software.filename = ('com.android.hiker.rar').decode('utf-8')
     software.filenamefixed = ('com.android.hiker.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('aTrackDog中文版 for Android').decode('utf-8')
@@ -5526,8 +5511,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3q/k0/com.a0soft.gphone.aTrackDog.apk').decode('utf-8')
     software.filename = ('com.a0soft.gphone.aTrackDog.apk').decode('utf-8')
     software.filenamefixed = ('com.a0soft.gphone.aTrackDog.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('有道手机词典 for Android1.2.0').decode('utf-8')
@@ -5545,8 +5530,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0l/lm/youdao.apk').decode('utf-8')
     software.filename = ('youdao.apk').decode('utf-8')
     software.filenamefixed = ('youdao.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('CET4词汇 for Android 1.0').decode('utf-8')
@@ -5564,8 +5549,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/az/cet.rar').decode('utf-8')
     software.filename = ('cet.rar').decode('utf-8')
     software.filenamefixed = ('cet.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('宋词赏析 for Android1.1').decode('utf-8')
@@ -5583,8 +5568,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/om/songci.rar').decode('utf-8')
     software.filename = ('songci.rar').decode('utf-8')
     software.filenamefixed = ('songci.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('HiDict（G典）for Android1.0 正式版').decode('utf-8')
@@ -5602,8 +5587,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0g/yh/HiDict_1.0.apk').decode('utf-8')
     software.filename = ('HiDict_1.0.apk').decode('utf-8')
     software.filenamefixed = ('HiDict_1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Documents To Go For Android2.0').decode('utf-8')
@@ -5621,8 +5606,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3t/h0/DocumentsToGo2.0.rar').decode('utf-8')
     software.filename = ('DocumentsToGo2.0.rar').decode('utf-8')
     software.filenamefixed = ('DocumentsToGo2.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('金山手机词霸 For Android2.0').decode('utf-8')
@@ -5640,8 +5625,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3t/9x/PWAndroid_320480_2.0.0.200912281551_62.rar').decode('utf-8')
     software.filename = ('PWAndroid_320480_2.0.0.200912281551_62.rar').decode('utf-8')
     software.filenamefixed = ('PWAndroid_320480_2.0.0.200912281551_62.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('名片全能王 For Android1.0').decode('utf-8')
@@ -5659,8 +5644,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/wa/Added_Business_Card_Scanner.rar').decode('utf-8')
     software.filename = ('Added_Business_Card_Scanner.rar').decode('utf-8')
     software.filenamefixed = ('Added_Business_Card_Scanner.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('免费词典 For Android1.04').decode('utf-8')
@@ -5678,8 +5663,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/rl/net.mobabel.modictfree.rar').decode('utf-8')
     software.filename = ('net.mobabel.modictfree.rar').decode('utf-8')
     software.filenamefixed = ('net.mobabel.modictfree.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('实用的翻译软件 For Android1.3.2').decode('utf-8')
@@ -5697,8 +5682,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/ri/android_translator_1.3.2.rar').decode('utf-8')
     software.filename = ('android_translator_1.3.2.rar').decode('utf-8')
     software.filenamefixed = ('android_translator_1.3.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('即时翻译软件 For Android1.0').decode('utf-8')
@@ -5716,8 +5701,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/nb/com.hiapk.hidict.rar').decode('utf-8')
     software.filename = ('com.hiapk.hidict.rar').decode('utf-8')
     software.filenamefixed = ('com.hiapk.hidict.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Memopad 记事本 For Android').decode('utf-8')
@@ -5735,8 +5720,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3s/db/android.memopad.rar').decode('utf-8')
     software.filename = ('android.memopad.rar').decode('utf-8')
     software.filenamefixed = ('android.memopad.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('AK记事本 AKNotepad For Android').decode('utf-8')
@@ -5754,8 +5739,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/qi/aknotepad1.5.5.rar').decode('utf-8')
     software.filename = ('aknotepad1.5.5.rar').decode('utf-8')
     software.filenamefixed = ('aknotepad1.5.5.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Voice Dictionary For Android').decode('utf-8')
@@ -5773,8 +5758,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3r/pl/com.nan.android.translator.rar').decode('utf-8')
     software.filename = ('com.nan.android.translator.rar').decode('utf-8')
     software.filenamefixed = ('com.nan.android.translator.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Gtranslate 高级翻译 For Android').decode('utf-8')
@@ -5792,8 +5777,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-3.pchome.net/3r/eh/at.lightyearapps.gtranslate.rar').decode('utf-8')
     software.filename = ('at.lightyearapps.gtranslate.rar').decode('utf-8')
     software.filenamefixed = ('at.lightyearapps.gtranslate.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('路路通时刻表 for Android2010.07.23').decode('utf-8')
@@ -5811,8 +5796,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0m/93/lulutong.rar').decode('utf-8')
     software.filename = ('lulutong.rar').decode('utf-8')
     software.filenamefixed = ('lulutong.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('盛名列车时刻表 for Android1.7.2010.7.11').decode('utf-8')
@@ -5830,8 +5815,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/32/0n/smskb_V1.6_0711.apk').decode('utf-8')
     software.filename = ('smskb_V1.6_0711.apk').decode('utf-8')
     software.filenamefixed = ('smskb_V1.6_0711.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('丁丁生活地图 for Android1.0').decode('utf-8')
@@ -5849,8 +5834,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0f/sv/ddandroid.apk').decode('utf-8')
     software.filename = ('ddandroid.apk').decode('utf-8')
     software.filenamefixed = ('ddandroid.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Google Maps 谷歌地图 For Android4.3.0').decode('utf-8')
@@ -5868,8 +5853,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/yt/google_maps_ver4.3.0.apk').decode('utf-8')
     software.filename = ('google_maps_ver4.3.0.apk').decode('utf-8')
     software.filenamefixed = ('google_maps_ver4.3.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('迷你地图 for Android1.1.22').decode('utf-8')
@@ -5887,8 +5872,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3v/lb/miniditu.rar').decode('utf-8')
     software.filename = ('miniditu.rar').decode('utf-8')
     software.filenamefixed = ('miniditu.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌城路况通 for Android1.1.5').decode('utf-8')
@@ -5906,8 +5891,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/gq/lukuangtong.apk').decode('utf-8')
     software.filename = ('lukuangtong.apk').decode('utf-8')
     software.filenamefixed = ('lukuangtong.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('E都市三维地图 for Android 1.0').decode('utf-8')
@@ -5925,8 +5910,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/zd/dushi.rar').decode('utf-8')
     software.filename = ('dushi.rar').decode('utf-8')
     software.filenamefixed = ('dushi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Maps Ruler 地图标尺 for Android1.4.2').decode('utf-8')
@@ -5944,8 +5929,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3u/n8/ditubiaochi.rar').decode('utf-8')
     software.filename = ('ditubiaochi.rar').decode('utf-8')
     software.filenamefixed = ('ditubiaochi.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('FindME for Android2.0').decode('utf-8')
@@ -5963,8 +5948,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-4.pchome.net/3u/k9/find.apk').decode('utf-8')
     software.filename = ('find.apk').decode('utf-8')
     software.filenamefixed = ('find.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Google Earth for Android').decode('utf-8')
@@ -5982,8 +5967,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0g/zh/Google_Earth_for_Android.apk').decode('utf-8')
     software.filename = ('Google_Earth_for_Android.apk').decode('utf-8')
     software.filenamefixed = ('Google_Earth_for_Android.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('线路追踪 For Android0.9.4').decode('utf-8')
@@ -6001,8 +5986,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/q7/gpstracker_0.9.4.rar').decode('utf-8')
     software.filename = ('gpstracker_0.9.4.rar').decode('utf-8')
     software.filenamefixed = ('gpstracker_0.9.4.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Point 路标指引者 For Android1.4.0').decode('utf-8')
@@ -6020,8 +6005,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3s/iz/pointlite_1.4.0.rar').decode('utf-8')
     software.filename = ('pointlite_1.4.0.rar').decode('utf-8')
     software.filenamefixed = ('pointlite_1.4.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('My Tracks For Android').decode('utf-8')
@@ -6039,8 +6024,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/69/com.google.android.maps.mytracks.rar').decode('utf-8')
     software.filename = ('com.google.android.maps.mytracks.rar').decode('utf-8')
     software.filenamefixed = ('com.google.android.maps.mytracks.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌中天涯 for Android1.02').decode('utf-8')
@@ -6058,8 +6043,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/31/v1/tianya_androidv102.apk').decode('utf-8')
     software.filename = ('tianya_androidv102.apk').decode('utf-8')
     software.filenamefixed = ('tianya_androidv102.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('开卷有益 for Android1.42').decode('utf-8')
@@ -6077,8 +6062,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-1.pchome.net/3s/xl/KingReaderApp_1.4.2.apk').decode('utf-8')
     software.filename = ('KingReaderApp_1.4.2.apk').decode('utf-8')
     software.filenamefixed = ('KingReaderApp_1.4.2.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('iSilo For Android5.18').decode('utf-8')
@@ -6096,8 +6081,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0s/3i/iSilo518And.rar').decode('utf-8')
     software.filename = ('iSilo518And.rar').decode('utf-8')
     software.filenamefixed = ('iSilo518And.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('Adobe Reader for Android 1.0').decode('utf-8')
@@ -6115,8 +6100,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/kk/AdobeAndroid.rar').decode('utf-8')
     software.filename = ('AdobeAndroid.rar').decode('utf-8')
     software.filenamefixed = ('AdobeAndroid.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('RepliGo Reader for Android2.1.6').decode('utf-8')
@@ -6134,8 +6119,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/4c/repligo.rar').decode('utf-8')
     software.filename = ('repligo.rar').decode('utf-8')
     software.filenamefixed = ('repligo.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('百闻手机阅读软件 for s60V31.0').decode('utf-8')
@@ -6153,8 +6138,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/z4/baiwen.rar').decode('utf-8')
     software.filename = ('baiwen.rar').decode('utf-8')
     software.filenamefixed = ('baiwen.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('熊猫看书 for Android1.88').decode('utf-8')
@@ -6172,8 +6157,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3p/ei/pandareader_v1.88.apk').decode('utf-8')
     software.filename = ('pandareader_v1.88.apk').decode('utf-8')
     software.filenamefixed = ('pandareader_v1.88.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('21财经 for Android3.0').decode('utf-8')
@@ -6191,8 +6176,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/ow/21caijin.rar').decode('utf-8')
     software.filename = ('21caijin.rar').decode('utf-8')
     software.filenamefixed = ('21caijin.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('掌上书院 for Android1.0').decode('utf-8')
@@ -6210,8 +6195,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/0n/xf/mbook_V1.0.apk').decode('utf-8')
     software.filename = ('mbook_V1.0.apk').decode('utf-8')
     software.filenamefixed = ('mbook_V1.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('iReader For Android1.0.8.1').decode('utf-8')
@@ -6229,8 +6214,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/bz/iReaderFree.apk').decode('utf-8')
     software.filename = ('iReaderFree.apk').decode('utf-8')
     software.filenamefixed = ('iReaderFree.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('cnBeta阅读客户端 for Android 公测版').decode('utf-8')
@@ -6248,8 +6233,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/0n/ym/CBCoreader.0.6.apk').decode('utf-8')
     software.filename = ('CBCoreader.0.6.apk').decode('utf-8')
     software.filenamefixed = ('CBCoreader.0.6.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('蜜蜂采集 for Android01.02.34').decode('utf-8')
@@ -6267,8 +6252,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3t/tj/mreaderg.apk').decode('utf-8')
     software.filename = ('mreaderg.apk').decode('utf-8')
     software.filenamefixed = ('mreaderg.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('RSS阅读器feedR For Android').decode('utf-8')
@@ -6286,8 +6271,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3s/tc/feedR_News_1.0.47.rar').decode('utf-8')
     software.filename = ('feedR_News_1.0.47.rar').decode('utf-8')
     software.filenamefixed = ('feedR_News_1.0.47.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('南方周末阅读器 For Android').decode('utf-8')
@@ -6305,8 +6290,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ctc-2.pchome.net/3s/sh/coollet.infzmreader.rar').decode('utf-8')
     software.filename = ('coollet.infzmreader.rar').decode('utf-8')
     software.filenamefixed = ('coollet.infzmreader.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('91PDF阅读器 For Android1.0.0').decode('utf-8')
@@ -6324,8 +6309,8 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3s/i7/91pdfreader_v1.0.0.rar').decode('utf-8')
     software.filename = ('91pdfreader_v1.0.0.rar').decode('utf-8')
     software.filenamefixed = ('91pdfreader_v1.0.0.apk').decode('utf-8')
-
     software.put()
+
 
     software = AndroidSoftware()
     software.title = ('multireader For Android').decode('utf-8')
@@ -6343,105 +6328,9 @@ class SoftwareInit(webapp.RequestHandler):
     software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3r/x3/adt.multireader.rar').decode('utf-8')
     software.filename = ('adt.multireader.rar').decode('utf-8')
     software.filenamefixed = ('adt.multireader.apk').decode('utf-8')
-
     software.put()
 
-    software = AndroidSoftware()
-    software.title = ('CyanogenMod for Android ROM6.0.0 RC1').decode('utf-8')
-    software.desc = ('CyanogenMod目前广泛被使用的Android ROM').decode('utf-8')
-    software.category = ('固件补丁').decode('utf-8')
-    software.type = ('固件补丁').decode('utf-8')
-    software.size = ('114.84MB').decode('utf-8')
-    software.updatedate = convert_date('2010-07-12')
-    software.name = ('CyanogenMod for Android ROM').decode('utf-8')
-    software.numbers = ('74').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3u/l9/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/bt/detail-179613.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/Firmware/download-179613.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/Firmware/redirectsrv-179613-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/l9/CyanogenMod_60_RC1.rar').decode('utf-8')
-    software.filename = ('CyanogenMod_60_RC1.rar').decode('utf-8')
-    software.filenamefixed = ('CyanogenMod_60_RC1.apk').decode('utf-8')
 
-    software.put()
-
-    software = AndroidSoftware()
-    software.title = ('Nexus One 手动升级包 for Android2.2').decode('utf-8')
-    software.desc = ('Android 2.2 For Nexus One手动升级包下载').decode('utf-8')
-    software.category = ('固件补丁').decode('utf-8')
-    software.type = ('固件补丁').decode('utf-8')
-    software.size = ('44.36MB').decode('utf-8')
-    software.updatedate = convert_date('2010-05-25')
-    software.name = ('Nexus One 手动升级包 for Android').decode('utf-8')
-    software.numbers = ('672').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3v/jy/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/mobile/Firmware/detail-180862.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/Firmware/download-180862.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/Firmware/redirectsrv-180862-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3v/jy/android2.2.rar').decode('utf-8')
-    software.filename = ('android2.2.rar').decode('utf-8')
-    software.filenamefixed = ('android2.2.apk').decode('utf-8')
-
-    software.put()
-
-    software = AndroidSoftware()
-    software.title = ('Motorola Milestone Android 2.0.1港版官方固件').decode('utf-8')
-    software.desc = ('Motorola Milestone Android').decode('utf-8')
-    software.category = ('固件补丁').decode('utf-8')
-    software.type = ('固件补丁').decode('utf-8')
-    software.size = ('131.15MB').decode('utf-8')
-    software.updatedate = convert_date('2010-02-11')
-    software.name = ('Motorola Milestone Android 2.0.1港版官方固件').decode('utf-8')
-    software.numbers = ('2688').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3u/1i/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/mobile/Firmware/detail-178902.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/Firmware/download-178902.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/Firmware/redirectsrv-178902-6.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-2.pchome.net/3u/1i/SHOLS_U2_01.14.0_UCASHLSEMEAB1B803F.0R.sbf').decode('utf-8')
-    software.filename = ('SHOLS_U2_01.14.0_UCASHLSEMEAB1B803F.0R.sbf').decode('utf-8')
-    software.filenamefixed = ('SHOLS_U2_01.14.0_UCASHLSEMEAB1B803F.0R.sbf').decode('utf-8')
-
-    software.put()
-
-    software = AndroidSoftware()
-    software.title = ('Motorola Rsdlite 连接工具').decode('utf-8')
-    software.desc = ('MOTO Milestone连接工具').decode('utf-8')
-    software.category = ('固件补丁').decode('utf-8')
-    software.type = ('固件补丁').decode('utf-8')
-    software.size = ('3.56MB').decode('utf-8')
-    software.updatedate = convert_date('2010-02-11')
-    software.name = ('Motorola Rsdlite 连接工具').decode('utf-8')
-    software.numbers = ('1956').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3u/1h/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/mobile/Firmware/detail-178901.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/Firmware/download-178901.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/Firmware/redirectsrv-178901-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/1h/motorola_rsdlite_4.5.3.zip').decode('utf-8')
-    software.filename = ('motorola_rsdlite_4.5.3.zip').decode('utf-8')
-    software.filenamefixed = ('motorola_rsdlite_4.5.3.zip').decode('utf-8')
-
-    software.put()
-
-    software = AndroidSoftware()
-    software.title = ('MOTO Milestone USB驱动程序').decode('utf-8')
-    software.desc = ('MOTO Milestone USB驱动和同步程序').decode('utf-8')
-    software.category = ('固件补丁').decode('utf-8')
-    software.type = ('固件补丁').decode('utf-8')
-    software.size = ('3.92MB').decode('utf-8')
-    software.updatedate = convert_date('2010-02-11')
-    software.name = ('MOTO Milestone USB驱动程序').decode('utf-8')
-    software.numbers = ('15894').decode('utf-8')
-    software.imgurl = ('http://img.download.pchome.net/3u/1g/hot6.png').decode('utf-8')
-    software.link = ('http://download.pchome.net/mobile/Firmware/detail-178900.html').decode('utf-8')
-    software.downloadurl = ('http://download.pchome.net/mobile/Firmware/download-178900.html').decode('utf-8')
-    software.downloadpageurl = ('http://download.pchome.net/mobile/Firmware/redirectsrv-178900-5.html').decode('utf-8')
-    software.downloadfileurl = ('http://dl-sh-ocn-1.pchome.net/3u/1g/USB_Drivers_32_bit_4.2.0.zip').decode('utf-8')
-    software.filename = ('USB_Drivers_32_bit_4.2.0.zip').decode('utf-8')
-    software.filenamefixed = ('USB_Drivers_32_bit_4.2.0.zip').decode('utf-8')
-
-    software.put()
-    
-    
     query = db.GqlQuery("SELECT * FROM AndroidSoftware")
     results = query.fetch(1000)
     print "record count: %d\n" % len(results)

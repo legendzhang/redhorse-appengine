@@ -4,6 +4,9 @@ runtime: python
 api_version: 1
 
 handlers:
+- url: /redhorse4ufiles
+  static_dir: redhorse4ufiles
+  
 - url: /datasoftware/.*
   script: datasoftware.py
 
