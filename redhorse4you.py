@@ -81,7 +81,7 @@ class Index(webapp.RequestHandler):
     
     str = ''
     for i in range(0,len(hao123category)):
-        str = str + '<tr><td><a href="android123?category='+hao123category[i]['name']+'">'+hao123category[i]['value']+'</a></td><td>&nbsp;&nbsp;&nbsp;</td><td><a href="android123?category='+hao123category2[i]['name']+'">'+hao123category2[i]['value']+'</a></td></tr>'
+        str = str + '<tr><td><a href="http://redhorse4you.appspot.com/android123?category='+hao123category[i]['name']+'">'+hao123category[i]['value']+'</a></td><td>&nbsp;&nbsp;&nbsp;</td><td><a href="android123?category='+hao123category2[i]['name']+'">'+hao123category2[i]['value']+'</a></td></tr>'
     greetings_query = Greeting.all().order('-date')
     greetings = greetings_query.fetch(10)
 
