@@ -6,7 +6,16 @@ api_version: 1
 handlers:
 - url: /redhorse4ufiles
   static_dir: redhorse4ufiles
-  
+
+- url: /favicon.ico
+  static_files: images/favicon.ico
+  upload: images/favicon.ico
+  mime_type: image/x-icon
+
+- url: /robots.txt
+  static_files: images/robots.txt
+  upload: images/robots.txt  
+
 - url: /datasoftware/.*
   script: datasoftware.py
 
